@@ -1,0 +1,18 @@
+{
+  "title": [
+    {
+      "locale": "en",
+      "content": "Unmuting"
+    },
+    {
+      "locale": "ne",
+      "content": "सेवा सुचारु गर्ने"
+    }
+  ],
+  "context": {
+    "place": true,
+    "person": true,
+    "expression": "contact.muted && !contact.date_of_death"
+  },
+  "icon": "icon-on"
+}

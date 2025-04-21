@@ -1,0 +1,667 @@
+<?xml version="1.0"?>
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:jr="http://openrosa.org/javarosa" xmlns:orx="http://openrosa.org/xforms">
+  <h:head>
+    <h:title>Death Registry Form</h:title>
+    <model>
+      <itext>
+        <translation lang="en">
+          <text id="/death_report/death_detail/cause_death:label">
+            <value>Cause of Death</value>
+          </text>
+          <text id="/death_report/death_detail/cause_death_other:label">
+            <value>Specify if others</value>
+          </text>
+          <text id="/death_report/death_detail/cause_maternal_death/lie_presentation:label">
+            <value>Lie presentation</value>
+          </text>
+          <text id="/death_report/death_detail/cause_maternal_death/others:label">
+            <value>Others</value>
+          </text>
+          <text id="/death_report/death_detail/cause_maternal_death/placenta_previa:label">
+            <value>Placenta previa</value>
+          </text>
+          <text id="/death_report/death_detail/cause_maternal_death/prolonged_labour:label">
+            <value>Prolonged labour</value>
+          </text>
+          <text id="/death_report/death_detail/cause_maternal_death/unable_to_reach:label">
+            <value>Unable to reach out health facility on time</value>
+          </text>
+          <text id="/death_report/death_detail/cause_maternal_death:label">
+            <value>Please elaborate</value>
+          </text>
+          <text id="/death_report/death_detail/death_date:jr:constraintMsg">
+            <value>The date must be between the date of birth and today's date.</value>
+          </text>
+          <text id="/death_report/death_detail/death_date:label">
+            <value>Date of death</value>
+          </text>
+          <text id="/death_report/death_detail/did_death_registered/no:label">
+            <value>No</value>
+          </text>
+          <text id="/death_report/death_detail/did_death_registered/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/death_report/death_detail/did_death_registered:label">
+            <value>Have you registered death?</value>
+          </text>
+          <text id="/death_report/death_detail/name_report_death:label">
+            <value>Name of the person reporting death</value>
+          </text>
+          <text id="/death_report/death_detail/place_death/hf_hospital:label">
+            <value>Health Facility / Hospital</value>
+          </text>
+          <text id="/death_report/death_detail/place_death/home:label">
+            <value>Home</value>
+          </text>
+          <text id="/death_report/death_detail/place_death/on_the_way_hf:label">
+            <value>On the way to Health Facility</value>
+          </text>
+          <text id="/death_report/death_detail/place_death/other:label">
+            <value>Others</value>
+          </text>
+          <text id="/death_report/death_detail/place_death:label">
+            <value>Place of death</value>
+          </text>
+          <text id="/death_report/death_detail/place_death_other:label">
+            <value>Specify if others</value>
+          </text>
+          <text id="/death_report/death_detail/relation_with_death_person:label">
+            <value>Relationship with died person</value>
+          </text>
+          <text id="/death_report/death_detail/why_death_not_registered:hint">
+            <value>Death registration can be done in your ward office and inform if possible</value>
+          </text>
+          <text id="/death_report/death_detail/why_death_not_registered:label">
+            <value>Why did not register, specify the reason ?</value>
+          </text>
+          <text id="/death_report/death_detail:label">
+            <value>Death Detail</value>
+          </text>
+          <text id="/death_report/inputs/source:label">
+            <value>Source</value>
+          </text>
+          <text id="/death_report/inputs/source_id:label">
+            <value>Source ID</value>
+          </text>
+          <text id="/death_report/inputs:label">
+            <value>Patient</value>
+          </text>
+          <text id="/death_report/summary/submit_note:label">
+            <value>Finally, press the "Submit" button.</value>
+          </text>
+          <text id="/death_report/summary/summary_0:label">
+            <value>Description &lt;i class="fa fa-user"&gt;&lt;/i&gt;</value>
+          </text>
+          <text id="/death_report/summary/summary_1:label">
+            <value>Name: <output value=" /death_report/patient_name "/></value>
+          </text>
+          <text id="/death_report/summary/summary_2:label">
+            <value>Age: <output value=" /death_report/patient_age_display_en "/></value>
+          </text>
+          <text id="/death_report/summary/summary_3:label">
+            <value>Date of death: <output value=" /death_report/death_detail/death_date "/></value>
+          </text>
+          <text id="/death_report/summary/summary_4:label">
+            <value>The reason: <output value=" /death_report/death_detail/death_reason "/></value>
+          </text>
+          <text id="static_instance-death_causes-0">
+            <value>Diseases</value>
+          </text>
+          <text id="static_instance-death_causes-1">
+            <value>Road Traffic Accident</value>
+          </text>
+          <text id="static_instance-death_causes-2">
+            <value>Pregnancy or Delivery</value>
+          </text>
+          <text id="static_instance-death_causes-3">
+            <value>Others</value>
+          </text>
+          <text id="static_instance-death_place-0">
+            <value>Health Facility / Hospital</value>
+          </text>
+          <text id="static_instance-death_place-1">
+            <value>Home</value>
+          </text>
+          <text id="static_instance-death_place-2">
+            <value>On the way to Health Facility</value>
+          </text>
+          <text id="static_instance-death_place-3">
+            <value>Others</value>
+          </text>
+          <text id="static_instance-maternal_death_causes-0">
+            <value>Prolonged labour</value>
+          </text>
+          <text id="static_instance-maternal_death_causes-1">
+            <value>Unable to reach out health facility on time</value>
+          </text>
+          <text id="static_instance-maternal_death_causes-2">
+            <value>Placenta previa</value>
+          </text>
+          <text id="static_instance-maternal_death_causes-3">
+            <value>Lie presentation</value>
+          </text>
+          <text id="static_instance-maternal_death_causes-4">
+            <value>Others</value>
+          </text>
+          <text id="static_instance-yes_no-0">
+            <value>Yes</value>
+          </text>
+          <text id="static_instance-yes_no-1">
+            <value>No</value>
+          </text>
+        </translation>
+        <translation lang="ne">
+          <text id="/death_report/death_detail/cause_death:label">
+            <value>मृत्युको कारण</value>
+          </text>
+          <text id="/death_report/death_detail/cause_death_other:label">
+            <value>अन्य भए उल्लेख गर्नुहोस्</value>
+          </text>
+          <text id="/death_report/death_detail/cause_maternal_death/lie_presentation:label">
+            <value>बच्चा उल्टो भएर</value>
+          </text>
+          <text id="/death_report/death_detail/cause_maternal_death/others:label">
+            <value>अन्य</value>
+          </text>
+          <text id="/death_report/death_detail/cause_maternal_death/placenta_previa:label">
+            <value>साल अड्केर</value>
+          </text>
+          <text id="/death_report/death_detail/cause_maternal_death/prolonged_labour:label">
+            <value>लामो प्रसव व्यथा लागेर</value>
+          </text>
+          <text id="/death_report/death_detail/cause_maternal_death/unable_to_reach:label">
+            <value>समयमै स्वास्थ्य संस्था पुर्याउन नसकेर</value>
+          </text>
+          <text id="/death_report/death_detail/cause_maternal_death:label">
+            <value>कारण खुलाउनुहोस्</value>
+          </text>
+          <text id="/death_report/death_detail/death_date:jr:constraintMsg">
+            <value>मिति जन्म मिति र आजको मिति बीचको हुनुपर्छ।</value>
+          </text>
+          <text id="/death_report/death_detail/death_date:label">
+            <value>मृत्यु भएको मिति</value>
+          </text>
+          <text id="/death_report/death_detail/did_death_registered/no:label">
+            <value>छैन</value>
+          </text>
+          <text id="/death_report/death_detail/did_death_registered/yes:label">
+            <value>छ</value>
+          </text>
+          <text id="/death_report/death_detail/did_death_registered:label">
+            <value>वडा कार्यालयमा मृत्यु दर्ता गर्नु भएको छ ?</value>
+          </text>
+          <text id="/death_report/death_detail/name_report_death:label">
+            <value>मृत्युको सूचना दिने व्यक्तिको नाम</value>
+          </text>
+          <text id="/death_report/death_detail/place_death/hf_hospital:label">
+            <value>स्वास्थ्य संस्था /अस्पताल</value>
+          </text>
+          <text id="/death_report/death_detail/place_death/home:label">
+            <value>घरमा</value>
+          </text>
+          <text id="/death_report/death_detail/place_death/on_the_way_hf:label">
+            <value>स्वास्थ्य संस्था लैजाँदा बाटोमा</value>
+          </text>
+          <text id="/death_report/death_detail/place_death/other:label">
+            <value>अन्य</value>
+          </text>
+          <text id="/death_report/death_detail/place_death:label">
+            <value>मृत्यु भएको स्थान</value>
+          </text>
+          <text id="/death_report/death_detail/place_death_other:label">
+            <value>अन्य भए उल्लेख गर्नुहोस्</value>
+          </text>
+          <text id="/death_report/death_detail/relation_with_death_person:label">
+            <value>मृत्यु भएको व्यक्ति सँगको नाता</value>
+          </text>
+          <text id="/death_report/death_detail/why_death_not_registered:hint">
+            <value>आफ्नो वडा कार्यालयमा गई मृत्यु दर्ता गर्न सकिन्छ भनी कृपया जानकारी गराउनुहोस्।</value>
+          </text>
+          <text id="/death_report/death_detail/why_death_not_registered:label">
+            <value>किन दर्ता गर्नु भएको छैन, कारण खुलाउनुहोस्।</value>
+          </text>
+          <text id="/death_report/death_detail:label">
+            <value>मृत्यु सम्बन्धी विवरण</value>
+          </text>
+          <text id="/death_report/inputs/contact/_id:label">
+            <value>-</value>
+          </text>
+          <text id="/death_report/inputs/contact/date_of_birth:label">
+            <value>-</value>
+          </text>
+          <text id="/death_report/inputs/contact/first_name:label">
+            <value>-</value>
+          </text>
+          <text id="/death_report/inputs/contact/last_name:label">
+            <value>-</value>
+          </text>
+          <text id="/death_report/inputs/contact/name:label">
+            <value>-</value>
+          </text>
+          <text id="/death_report/inputs/contact/patient_id:label">
+            <value>-</value>
+          </text>
+          <text id="/death_report/inputs/contact/sex:label">
+            <value>-</value>
+          </text>
+          <text id="/death_report/inputs/contact:label">
+            <value>-</value>
+          </text>
+          <text id="/death_report/inputs/date_id:label">
+            <value>-</value>
+          </text>
+          <text id="/death_report/inputs/source:label">
+            <value>-</value>
+          </text>
+          <text id="/death_report/inputs/source_id:label">
+            <value>-</value>
+          </text>
+          <text id="/death_report/inputs/user/contact_id:label">
+            <value>-</value>
+          </text>
+          <text id="/death_report/inputs/user:label">
+            <value>-</value>
+          </text>
+          <text id="/death_report/inputs:label">
+            <value>-</value>
+          </text>
+          <text id="/death_report/summary/submit_note:label">
+            <value>अन्तिममा "बुझाउनुहोस्" भन्ने बटन थिच्नुहोस् ।</value>
+          </text>
+          <text id="/death_report/summary/summary_0:label">
+            <value>विवरण &lt;i class="fa fa-user"&gt;&lt;/i&gt;</value>
+          </text>
+          <text id="/death_report/summary/summary_1:label">
+            <value>नाम: <output value=" /death_report/patient_name "/></value>
+          </text>
+          <text id="/death_report/summary/summary_2:label">
+            <value>उमेर: <output value=" /death_report/patient_age_display_ne "/></value>
+          </text>
+          <text id="/death_report/summary/summary_3:label">
+            <value>मृत्यु भएको मिति: <output value=" /death_report/death_detail/death_date_nepali "/></value>
+          </text>
+          <text id="/death_report/summary/summary_4:label">
+            <value>कारण: <output value=" /death_report/death_detail/death_reason "/></value>
+          </text>
+          <text id="static_instance-death_causes-0">
+            <value>रोग</value>
+          </text>
+          <text id="static_instance-death_causes-1">
+            <value>सडक दुर्घटना</value>
+          </text>
+          <text id="static_instance-death_causes-2">
+            <value>गर्भावस्था वा सुत्केरी</value>
+          </text>
+          <text id="static_instance-death_causes-3">
+            <value>अन्य</value>
+          </text>
+          <text id="static_instance-death_place-0">
+            <value>स्वास्थ्य संस्था /अस्पताल</value>
+          </text>
+          <text id="static_instance-death_place-1">
+            <value>घरमा</value>
+          </text>
+          <text id="static_instance-death_place-2">
+            <value>स्वास्थ्य संस्था लैजाँदा बाटोमा</value>
+          </text>
+          <text id="static_instance-death_place-3">
+            <value>अन्य</value>
+          </text>
+          <text id="static_instance-maternal_death_causes-0">
+            <value>लामो प्रसव व्यथा लागेर</value>
+          </text>
+          <text id="static_instance-maternal_death_causes-1">
+            <value>समयमै स्वास्थ्य संस्था पुर्याउन नसकेर</value>
+          </text>
+          <text id="static_instance-maternal_death_causes-2">
+            <value>साल अड्केर</value>
+          </text>
+          <text id="static_instance-maternal_death_causes-3">
+            <value>बच्चा उल्टो भएर</value>
+          </text>
+          <text id="static_instance-maternal_death_causes-4">
+            <value>अन्य</value>
+          </text>
+          <text id="static_instance-yes_no-0">
+            <value>छ</value>
+          </text>
+          <text id="static_instance-yes_no-1">
+            <value>छैन</value>
+          </text>
+        </translation>
+      </itext>
+      <instance>
+        <death_report id="death_report" prefix="J1!death_report!" delimiter="#" version="2025-02-28 21:40:36">
+          <inputs>
+            <meta>
+              <location>
+                <lat/>
+                <long/>
+                <error/>
+                <message/>
+              </location>
+            </meta>
+            <date_id/>
+            <source>user</source>
+            <source_id/>
+            <user>
+              <contact_id/>
+            </user>
+            <contact>
+              <_id/>
+              <patient_id/>
+              <date_of_birth/>
+              <first_name/>
+              <last_name/>
+              <name/>
+              <sex/>
+            </contact>
+          </inputs>
+          <patient_id tag="hidden"/>
+          <birthdate tag="hidden"/>
+          <patient_first_name tag="hidden"/>
+          <patient_last_name tag="hidden"/>
+          <patient_full_name tag="hidden"/>
+          <patient_name tag="hidden"/>
+          <patient_age_years tag="hidden"/>
+          <patient_age_months tag="hidden"/>
+          <patient_age_days tag="hidden"/>
+          <death_detail>
+            <death_date/>
+            <death_date_nepali/>
+            <name_report_death/>
+            <relation_with_death_person/>
+            <place_death tag="hidden"/>
+            <place_death_other tag="hidden"/>
+            <cause_death tag="hidden"/>
+            <cause_maternal_death tag="hidden"/>
+            <cause_death_other tag="hidden"/>
+            <death_place/>
+            <death_reason/>
+            <did_death_registered/>
+            <why_death_not_registered/>
+          </death_detail>
+          <patient_age_display_en tag="hidden"/>
+          <patient_age_ne tag="hidden"/>
+          <patient_age_display_ne tag="hidden"/>
+          <summary tag="hidden">
+            <submit_note tag="hidden"/>
+            <summary_0 tag="hidden"/>
+            <summary_1 tag="hidden"/>
+            <summary_2 tag="hidden"/>
+            <summary_3 tag="hidden"/>
+            <summary_4 tag="hidden"/>
+          </summary>
+          <meta tag="hidden">
+            <instanceID/>
+          </meta>
+        </death_report>
+      </instance>
+      <instance id="contact-summary"/>
+      <instance id="yes_no">
+        <root>
+          <item>
+            <itextId>static_instance-yes_no-0</itextId>
+            <name>yes</name>
+          </item>
+          <item>
+            <itextId>static_instance-yes_no-1</itextId>
+            <name>no</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="death_place">
+        <root>
+          <item>
+            <itextId>static_instance-death_place-0</itextId>
+            <name>hf_hospital</name>
+          </item>
+          <item>
+            <itextId>static_instance-death_place-1</itextId>
+            <name>home</name>
+          </item>
+          <item>
+            <itextId>static_instance-death_place-2</itextId>
+            <name>on_the_way_hf</name>
+          </item>
+          <item>
+            <itextId>static_instance-death_place-3</itextId>
+            <name>other</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="death_causes">
+        <root>
+          <item>
+            <itextId>static_instance-death_causes-0</itextId>
+            <name>diseases</name>
+          </item>
+          <item>
+            <itextId>static_instance-death_causes-1</itextId>
+            <name>accident</name>
+          </item>
+          <item>
+            <itextId>static_instance-death_causes-2</itextId>
+            <name>maternal</name>
+          </item>
+          <item>
+            <itextId>static_instance-death_causes-3</itextId>
+            <name>other</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="maternal_death_causes">
+        <root>
+          <item>
+            <itextId>static_instance-maternal_death_causes-0</itextId>
+            <name>prolonged_labour</name>
+          </item>
+          <item>
+            <itextId>static_instance-maternal_death_causes-1</itextId>
+            <name>unable_to_reach</name>
+          </item>
+          <item>
+            <itextId>static_instance-maternal_death_causes-2</itextId>
+            <name>placenta_previa</name>
+          </item>
+          <item>
+            <itextId>static_instance-maternal_death_causes-3</itextId>
+            <name>lie_presentation</name>
+          </item>
+          <item>
+            <itextId>static_instance-maternal_death_causes-4</itextId>
+            <name>others</name>
+          </item>
+        </root>
+      </instance>
+      <bind nodeset="/death_report/inputs" relevant="./source='user'"/>
+      <bind nodeset="/death_report/inputs/date_id" type="string"/>
+      <bind nodeset="/death_report/inputs/source" type="string"/>
+      <bind nodeset="/death_report/inputs/source_id" type="string"/>
+      <bind nodeset="/death_report/inputs/user/contact_id" type="db:person"/>
+      <bind nodeset="/death_report/inputs/contact/_id" type="db:person" required="true()"/>
+      <bind nodeset="/death_report/inputs/contact/patient_id" type="string"/>
+      <bind nodeset="/death_report/inputs/contact/date_of_birth" type="string"/>
+      <bind nodeset="/death_report/inputs/contact/first_name" type="string"/>
+      <bind nodeset="/death_report/inputs/contact/last_name" type="string"/>
+      <bind nodeset="/death_report/inputs/contact/name" type="string"/>
+      <bind nodeset="/death_report/inputs/contact/sex" type="string"/>
+      <bind nodeset="/death_report/patient_id" type="string" calculate="../inputs/contact/_id"/>
+      <bind nodeset="/death_report/birthdate" type="string" calculate="../inputs/contact/date_of_birth"/>
+      <bind nodeset="/death_report/patient_first_name" type="string" calculate="../inputs/contact/first_name"/>
+      <bind nodeset="/death_report/patient_last_name" type="string" calculate="../inputs/contact/last_name"/>
+      <bind nodeset="/death_report/patient_full_name" type="string" calculate="concat( /death_report/patient_first_name , ' ',  /death_report/patient_last_name )"/>
+      <bind nodeset="/death_report/patient_name" type="string" calculate="coalesce(../inputs/contact/name,  /death_report/patient_full_name )"/>
+      <bind nodeset="/death_report/patient_age_years" type="string" calculate="floor( difference-in-months(  /death_report/birthdate , today() ) div 12 )"/>
+      <bind nodeset="/death_report/patient_age_months" type="string" calculate="difference-in-months(  /death_report/birthdate , now() ) -  /death_report/patient_age_years *12"/>
+      <bind nodeset="/death_report/patient_age_days" type="string" calculate="floor( decimal-date-time(now()) - decimal-date-time( /death_report/birthdate ) )"/>
+      <bind nodeset="/death_report/death_detail/death_date" type="date" constraint=". &lt;= now() and . &gt;=  /death_report/birthdate " jr:constraintMsg="jr:itext('/death_report/death_detail/death_date:jr:constraintMsg')" required="true()"/>
+      <bind nodeset="/death_report/death_detail/death_date_nepali" type="string" calculate="to-bikram-sambat( /death_report/death_detail/death_date )"/>
+      <bind nodeset="/death_report/death_detail/name_report_death" type="string" required="true()"/>
+      <bind nodeset="/death_report/death_detail/relation_with_death_person" type="string" required="true()"/>
+      <bind nodeset="/death_report/death_detail/place_death" type="select1" required="true()"/>
+      <bind nodeset="/death_report/death_detail/place_death_other" type="string" relevant=" /death_report/death_detail/place_death  = 'other'"/>
+      <bind nodeset="/death_report/death_detail/cause_death" type="select1" required="true()"/>
+      <bind nodeset="/death_report/death_detail/cause_maternal_death" type="select1" relevant=" /death_report/death_detail/cause_death  = 'maternal'"/>
+      <bind nodeset="/death_report/death_detail/cause_death_other" type="string" relevant=" /death_report/death_detail/cause_death  = 'other' or  /death_report/death_detail/cause_maternal_death  = 'other'" required="true()"/>
+      <bind nodeset="/death_report/death_detail/death_place" type="string" calculate="if( /death_report/death_detail/place_death ='other',  /death_report/death_detail/place_death_other , jr:choice-name( /death_report/death_detail/place_death , ' /death_report/death_detail/place_death '))"/>
+      <bind nodeset="/death_report/death_detail/death_reason" type="string" calculate="if( /death_report/death_detail/cause_death ='other',  /death_report/death_detail/cause_death_other , if( /death_report/death_detail/cause_death ='maternal', jr:choice-name( /death_report/death_detail/cause_maternal_death , ' /death_report/death_detail/cause_maternal_death '), jr:choice-name( /death_report/death_detail/cause_death , ' /death_report/death_detail/cause_death ')))"/>
+      <bind nodeset="/death_report/death_detail/did_death_registered" type="select1" required="true()"/>
+      <bind nodeset="/death_report/death_detail/why_death_not_registered" type="string" relevant=" /death_report/death_detail/did_death_registered  = 'no'" required="true()"/>
+      <bind nodeset="/death_report/patient_age_display_en" type="string" calculate="if( /death_report/patient_age_years  +  /death_report/patient_age_months  +  /death_report/patient_age_days  = 0, 
+ '0 days', 
+ concat(
+ if( /death_report/patient_age_years  &gt; 0, concat(int( /death_report/patient_age_years ), ' years '), ''),
+ if( /death_report/patient_age_months  &gt; 0, concat(int( /death_report/patient_age_months ), ' months '), ''),
+ if( /death_report/patient_age_years  = 0 and  /death_report/patient_age_months  = 0 and  /death_report/patient_age_days  &gt; 0, 
+ concat(int( /death_report/patient_age_days ), ' days'), 
+ ''
+ )
+ )
+)"/>
+      <bind nodeset="/death_report/patient_age_ne" type="string" calculate="if( /death_report/patient_age_years  +  /death_report/patient_age_months  +  /death_report/patient_age_days  = 0, 
+ '0 दिन', 
+ concat(
+ if( /death_report/patient_age_years  &gt; 0, concat(int( /death_report/patient_age_years ), ' वर्ष '), ''),
+ if( /death_report/patient_age_months  &gt; 0, concat(int( /death_report/patient_age_months ), ' महिना '), ''),
+ if( /death_report/patient_age_years  = 0 and  /death_report/patient_age_months  = 0 and  /death_report/patient_age_days  &gt; 0, 
+ concat(int( /death_report/patient_age_days ), ' दिन'), 
+ ''
+ )
+ )
+)"/>
+      <bind nodeset="/death_report/patient_age_display_ne" type="string" calculate="translate( /death_report/patient_age_ne ,'1234567890','१२३४५६७८९०')"/>
+      <bind nodeset="/death_report/summary/submit_note" readonly="true()" type="string"/>
+      <bind nodeset="/death_report/summary/summary_0" readonly="true()" type="string"/>
+      <bind nodeset="/death_report/summary/summary_1" readonly="true()" type="string"/>
+      <bind nodeset="/death_report/summary/summary_2" readonly="true()" type="string"/>
+      <bind nodeset="/death_report/summary/summary_3" readonly="true()" type="string"/>
+      <bind nodeset="/death_report/summary/summary_4" readonly="true()" type="string"/>
+      <bind nodeset="/death_report/meta/instanceID" type="string" readonly="true()" calculate="concat('uuid:', uuid())"/>
+    </model>
+  </h:head>
+  <h:body class="pages">
+    <group appearance="field-list" ref="/death_report/inputs">
+      <label ref="jr:itext('/death_report/inputs:label')"/>
+      <input appearance="hidden" ref="/death_report/inputs/source">
+        <label ref="jr:itext('/death_report/inputs/source:label')"/>
+      </input>
+      <input appearance="hidden" ref="/death_report/inputs/source_id">
+        <label ref="jr:itext('/death_report/inputs/source_id:label')"/>
+      </input>
+      <group ref="/death_report/inputs/user">
+        <input appearance="db-object" ref="/death_report/inputs/user/contact_id"/>
+      </group>
+      <group ref="/death_report/inputs/contact">
+        <input appearance="db-object" ref="/death_report/inputs/contact/_id"/>
+        <input ref="/death_report/inputs/contact/date_of_birth"/>
+        <input ref="/death_report/inputs/contact/first_name"/>
+        <input ref="/death_report/inputs/contact/last_name"/>
+        <input appearance="hidden" ref="/death_report/inputs/contact/name"/>
+        <input ref="/death_report/inputs/contact/sex"/>
+      </group>
+    </group>
+    <group appearance="field-list" ref="/death_report/death_detail">
+      <label ref="jr:itext('/death_report/death_detail:label')"/>
+      <input ref="/death_report/death_detail/death_date">
+        <label ref="jr:itext('/death_report/death_detail/death_date:label')"/>
+      </input>
+      <input ref="/death_report/death_detail/name_report_death">
+        <label ref="jr:itext('/death_report/death_detail/name_report_death:label')"/>
+      </input>
+      <input ref="/death_report/death_detail/relation_with_death_person">
+        <label ref="jr:itext('/death_report/death_detail/relation_with_death_person:label')"/>
+      </input>
+      <select1 ref="/death_report/death_detail/place_death">
+        <label ref="jr:itext('/death_report/death_detail/place_death:label')"/>
+        <item>
+          <label ref="jr:itext('/death_report/death_detail/place_death/hf_hospital:label')"/>
+          <value>hf_hospital</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/death_report/death_detail/place_death/home:label')"/>
+          <value>home</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/death_report/death_detail/place_death/on_the_way_hf:label')"/>
+          <value>on_the_way_hf</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/death_report/death_detail/place_death/other:label')"/>
+          <value>other</value>
+        </item>
+      </select1>
+      <input ref="/death_report/death_detail/place_death_other">
+        <label ref="jr:itext('/death_report/death_detail/place_death_other:label')"/>
+      </input>
+      <select1 ref="/death_report/death_detail/cause_death">
+        <label ref="jr:itext('/death_report/death_detail/cause_death:label')"/>
+        <itemset nodeset="instance('death_causes')/root/item[name != 'maternal' or ( /death_report/inputs/contact/sex  = 'female' and  /death_report/patient_age_years  &gt; 12 and  /death_report/patient_age_years  &lt; 55)]">
+          <value ref="name"/>
+          <label ref="jr:itext(itextId)"/>
+        </itemset>
+      </select1>
+      <select1 ref="/death_report/death_detail/cause_maternal_death">
+        <label ref="jr:itext('/death_report/death_detail/cause_maternal_death:label')"/>
+        <item>
+          <label ref="jr:itext('/death_report/death_detail/cause_maternal_death/prolonged_labour:label')"/>
+          <value>prolonged_labour</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/death_report/death_detail/cause_maternal_death/unable_to_reach:label')"/>
+          <value>unable_to_reach</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/death_report/death_detail/cause_maternal_death/placenta_previa:label')"/>
+          <value>placenta_previa</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/death_report/death_detail/cause_maternal_death/lie_presentation:label')"/>
+          <value>lie_presentation</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/death_report/death_detail/cause_maternal_death/others:label')"/>
+          <value>others</value>
+        </item>
+      </select1>
+      <input ref="/death_report/death_detail/cause_death_other">
+        <label ref="jr:itext('/death_report/death_detail/cause_death_other:label')"/>
+      </input>
+      <select1 ref="/death_report/death_detail/did_death_registered">
+        <label ref="jr:itext('/death_report/death_detail/did_death_registered:label')"/>
+        <item>
+          <label ref="jr:itext('/death_report/death_detail/did_death_registered/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/death_report/death_detail/did_death_registered/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <input ref="/death_report/death_detail/why_death_not_registered">
+        <label ref="jr:itext('/death_report/death_detail/why_death_not_registered:label')"/>
+        <hint ref="jr:itext('/death_report/death_detail/why_death_not_registered:hint')"/>
+      </input>
+    </group>
+    <group appearance="field-list summary" ref="/death_report/summary">
+      <input ref="/death_report/summary/submit_note">
+        <label ref="jr:itext('/death_report/summary/submit_note:label')"/>
+      </input>
+      <input appearance="h1 yellow" ref="/death_report/summary/summary_0">
+        <label ref="jr:itext('/death_report/summary/summary_0:label')"/>
+      </input>
+      <input ref="/death_report/summary/summary_1">
+        <label ref="jr:itext('/death_report/summary/summary_1:label')"/>
+      </input>
+      <input ref="/death_report/summary/summary_2">
+        <label ref="jr:itext('/death_report/summary/summary_2:label')"/>
+      </input>
+      <input ref="/death_report/summary/summary_3">
+        <label ref="jr:itext('/death_report/summary/summary_3:label')"/>
+      </input>
+      <input ref="/death_report/summary/summary_4">
+        <label ref="jr:itext('/death_report/summary/summary_4:label')"/>
+      </input>
+    </group>
+  </h:body>
+</h:html>

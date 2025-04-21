@@ -1,0 +1,525 @@
+<?xml version="1.0"?>
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:jr="http://openrosa.org/javarosa" xmlns:orx="http://openrosa.org/xforms">
+  <h:head>
+    <h:title>गर्भ जाँच</h:title>
+    <model>
+      <itext>
+        <translation lang="en">
+          <text id="/pregnancy_visit/inputs/contact/_id:label">
+            <value>What is the patient's name?</value>
+          </text>
+          <text id="/pregnancy_visit/inputs/contact/date_of_birth:label">
+            <value>Date of Birth</value>
+          </text>
+          <text id="/pregnancy_visit/inputs/contact/name:label">
+            <value>Name</value>
+          </text>
+          <text id="/pregnancy_visit/inputs/contact/parent/name:label">
+            <value>FCHV Area</value>
+          </text>
+          <text id="/pregnancy_visit/inputs/contact/parent/parent/contact/chw_name:label">
+            <value>CHW name</value>
+          </text>
+          <text id="/pregnancy_visit/inputs/contact/parent/parent/contact/phone:label">
+            <value>CHW phone</value>
+          </text>
+          <text id="/pregnancy_visit/inputs/contact/parent/parent/contact:label">
+            <value>Contact</value>
+          </text>
+          <text id="/pregnancy_visit/inputs/contact/parent/parent/name:label">
+            <value>CHN Area</value>
+          </text>
+          <text id="/pregnancy_visit/inputs/contact/parent/parent:label">
+            <value>Parent</value>
+          </text>
+          <text id="/pregnancy_visit/inputs/contact/parent:label">
+            <value>Parent</value>
+          </text>
+          <text id="/pregnancy_visit/inputs/contact/patient_id:label">
+            <value>Patient ID</value>
+          </text>
+          <text id="/pregnancy_visit/inputs/contact/sex:label">
+            <value>Sex</value>
+          </text>
+          <text id="/pregnancy_visit/inputs/contact:label">
+            <value>Contact</value>
+          </text>
+          <text id="/pregnancy_visit/inputs/source:label">
+            <value>Source</value>
+          </text>
+          <text id="/pregnancy_visit/inputs/source_id:label">
+            <value>Source ID</value>
+          </text>
+          <text id="/pregnancy_visit/inputs:label">
+            <value>Patient</value>
+          </text>
+          <text id="/pregnancy_visit/pregnancy_visit/danger_signs/anemia/no:label">
+            <value>No</value>
+          </text>
+          <text id="/pregnancy_visit/pregnancy_visit/danger_signs/anemia/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/pregnancy_visit/pregnancy_visit/danger_signs/anemia:label">
+            <value>Anaemia</value>
+          </text>
+          <text id="/pregnancy_visit/pregnancy_visit/danger_signs/blood_pressure/no:label">
+            <value>No</value>
+          </text>
+          <text id="/pregnancy_visit/pregnancy_visit/danger_signs/blood_pressure/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/pregnancy_visit/pregnancy_visit/danger_signs/blood_pressure:label">
+            <value>Measure the blood pressure, is it good</value>
+          </text>
+          <text id="/pregnancy_visit/pregnancy_visit/danger_signs/breathlessness/no:label">
+            <value>No</value>
+          </text>
+          <text id="/pregnancy_visit/pregnancy_visit/danger_signs/breathlessness/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/pregnancy_visit/pregnancy_visit/danger_signs/breathlessness:label">
+            <value>Difficulty in breathing</value>
+          </text>
+          <text id="/pregnancy_visit/pregnancy_visit/danger_signs/danger_signs_note:label">
+            <value>Do Physical Examination and ask</value>
+          </text>
+          <text id="/pregnancy_visit/pregnancy_visit/danger_signs/face_hand_swelling/no:label">
+            <value>No</value>
+          </text>
+          <text id="/pregnancy_visit/pregnancy_visit/danger_signs/face_hand_swelling/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/pregnancy_visit/pregnancy_visit/danger_signs/face_hand_swelling:label">
+            <value>Swelling feet and Face</value>
+          </text>
+          <text id="/pregnancy_visit/pregnancy_visit/danger_signs/fever/no:label">
+            <value>No</value>
+          </text>
+          <text id="/pregnancy_visit/pregnancy_visit/danger_signs/fever/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/pregnancy_visit/pregnancy_visit/danger_signs/fever:label">
+            <value>Fever above 100.4C</value>
+          </text>
+          <text id="/pregnancy_visit/pregnancy_visit/danger_signs/fits/no:label">
+            <value>No</value>
+          </text>
+          <text id="/pregnancy_visit/pregnancy_visit/danger_signs/fits/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/pregnancy_visit/pregnancy_visit/danger_signs/fits:label">
+            <value>Are you experiencing convulsions and fainting</value>
+          </text>
+          <text id="/pregnancy_visit/pregnancy_visit/danger_signs/heart_beat/no:label">
+            <value>No</value>
+          </text>
+          <text id="/pregnancy_visit/pregnancy_visit/danger_signs/heart_beat/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/pregnancy_visit/pregnancy_visit/danger_signs/heart_beat:label">
+            <value>Measure the Fetal Heart Sound, is it good</value>
+          </text>
+          <text id="/pregnancy_visit/pregnancy_visit/danger_signs/if_any:label">
+            <value>Specify if others</value>
+          </text>
+          <text id="/pregnancy_visit/pregnancy_visit/danger_signs/severe_abdominal_pain/no:label">
+            <value>No</value>
+          </text>
+          <text id="/pregnancy_visit/pregnancy_visit/danger_signs/severe_abdominal_pain/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/pregnancy_visit/pregnancy_visit/danger_signs/severe_abdominal_pain:label">
+            <value>Severe abdominal pain</value>
+          </text>
+          <text id="/pregnancy_visit/pregnancy_visit/danger_signs/vaginal_bleeding/no:label">
+            <value>No</value>
+          </text>
+          <text id="/pregnancy_visit/pregnancy_visit/danger_signs/vaginal_bleeding/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/pregnancy_visit/pregnancy_visit/danger_signs/vaginal_bleeding:label">
+            <value>Do you have lower abdominal pain and bleeding</value>
+          </text>
+          <text id="/pregnancy_visit/pregnancy_visit/pregnancy_summary/edd_note:label">
+            <value>Expected Date of Delivery(EDD):&lt;br&gt; <output value=" /pregnancy_visit/edd_date_formatted "/></value>
+          </text>
+          <text id="/pregnancy_visit/pregnancy_visit/pregnancy_summary/lmp_note:label">
+            <value>LMP date: <output value=" /pregnancy_visit/lmp_date_formatted "/></value>
+          </text>
+          <text id="/pregnancy_visit/pregnancy_visit/pregnancy_summary/visit_count_note:label">
+            <value>**This is ANC Visit No. <output value=" /pregnancy_visit/current_visit_count "/>**</value>
+          </text>
+        </translation>
+        <translation lang="ne">
+          <text id="/pregnancy_visit/inputs/contact/_id:label">
+            <value>सेवा लिनेको नाम के हो?</value>
+          </text>
+          <text id="/pregnancy_visit/pregnancy_visit/danger_signs/anemia/no:label">
+            <value>छैन</value>
+          </text>
+          <text id="/pregnancy_visit/pregnancy_visit/danger_signs/anemia/yes:label">
+            <value>छ</value>
+          </text>
+          <text id="/pregnancy_visit/pregnancy_visit/danger_signs/anemia:label">
+            <value>रक्तअल्पता भएको छ ? *</value>
+          </text>
+          <text id="/pregnancy_visit/pregnancy_visit/danger_signs/blood_pressure/no:label">
+            <value>छैन</value>
+          </text>
+          <text id="/pregnancy_visit/pregnancy_visit/danger_signs/blood_pressure/yes:label">
+            <value>छ</value>
+          </text>
+          <text id="/pregnancy_visit/pregnancy_visit/danger_signs/blood_pressure:label">
+            <value>रक्तचाप नाप्नुहोस् । ठिक छ ?*</value>
+          </text>
+          <text id="/pregnancy_visit/pregnancy_visit/danger_signs/breathlessness/no:label">
+            <value>छैन</value>
+          </text>
+          <text id="/pregnancy_visit/pregnancy_visit/danger_signs/breathlessness/yes:label">
+            <value>छ</value>
+          </text>
+          <text id="/pregnancy_visit/pregnancy_visit/danger_signs/breathlessness:label">
+            <value>स्वाश फेर्न गारो भएको *:</value>
+          </text>
+          <text id="/pregnancy_visit/pregnancy_visit/danger_signs/danger_signs_note:label">
+            <value>शारीरिक जाँच गर्नुहोस् अनि सोध्नुहोस् :</value>
+          </text>
+          <text id="/pregnancy_visit/pregnancy_visit/danger_signs/face_hand_swelling/no:label">
+            <value>छैन</value>
+          </text>
+          <text id="/pregnancy_visit/pregnancy_visit/danger_signs/face_hand_swelling/yes:label">
+            <value>छ</value>
+          </text>
+          <text id="/pregnancy_visit/pregnancy_visit/danger_signs/face_hand_swelling:label">
+            <value>खुट्टा, मुख सुन्निएको छ ?*</value>
+          </text>
+          <text id="/pregnancy_visit/pregnancy_visit/danger_signs/fever/no:label">
+            <value>छैन</value>
+          </text>
+          <text id="/pregnancy_visit/pregnancy_visit/danger_signs/fever/yes:label">
+            <value>छ</value>
+          </text>
+          <text id="/pregnancy_visit/pregnancy_visit/danger_signs/fever:label">
+            <value>१००.४ डिग्रीभन्दा माथि ज्वोरो आएको छ ? *</value>
+          </text>
+          <text id="/pregnancy_visit/pregnancy_visit/danger_signs/fits/no:label">
+            <value>छैन</value>
+          </text>
+          <text id="/pregnancy_visit/pregnancy_visit/danger_signs/fits/yes:label">
+            <value>छ</value>
+          </text>
+          <text id="/pregnancy_visit/pregnancy_visit/danger_signs/fits:label">
+            <value>हात, खुट्टा अर्रो भई काँप छुटेको वा मुर्छा परेको छ ?*</value>
+          </text>
+          <text id="/pregnancy_visit/pregnancy_visit/danger_signs/heart_beat/no:label">
+            <value>छैन</value>
+          </text>
+          <text id="/pregnancy_visit/pregnancy_visit/danger_signs/heart_beat/yes:label">
+            <value>छ</value>
+          </text>
+          <text id="/pregnancy_visit/pregnancy_visit/danger_signs/heart_beat:label">
+            <value>बच्चाको मुटुको धडकन नाप्नुहोस् । ठिक छ? *</value>
+          </text>
+          <text id="/pregnancy_visit/pregnancy_visit/danger_signs/if_any:label">
+            <value>अन्य भए उलेल्ख गर्नुहोस्:</value>
+          </text>
+          <text id="/pregnancy_visit/pregnancy_visit/danger_signs/severe_abdominal_pain/no:label">
+            <value>छैन</value>
+          </text>
+          <text id="/pregnancy_visit/pregnancy_visit/danger_signs/severe_abdominal_pain/yes:label">
+            <value>छ</value>
+          </text>
+          <text id="/pregnancy_visit/pregnancy_visit/danger_signs/severe_abdominal_pain:label">
+            <value>कडा किसिमले पेट दुख छ ।*</value>
+          </text>
+          <text id="/pregnancy_visit/pregnancy_visit/danger_signs/vaginal_bleeding/no:label">
+            <value>छैन</value>
+          </text>
+          <text id="/pregnancy_visit/pregnancy_visit/danger_signs/vaginal_bleeding/yes:label">
+            <value>छ</value>
+          </text>
+          <text id="/pregnancy_visit/pregnancy_visit/danger_signs/vaginal_bleeding:label">
+            <value>तल्लो पेट दुख्ने र रगत बग्ने छ ?*</value>
+          </text>
+          <text id="/pregnancy_visit/pregnancy_visit/pregnancy_summary/edd_note:label">
+            <value>अनुमानित सुत्केरी हुने मिति : **<output value=" /pregnancy_visit/edd_date_formatted_ne "/>**</value>
+          </text>
+          <text id="/pregnancy_visit/pregnancy_visit/pregnancy_summary/lmp_note:label">
+            <value>महिनावारी भएको अन्तिम मिति: **<output value=" /pregnancy_visit/lmp_date_formatted_ne "/>**</value>
+          </text>
+          <text id="/pregnancy_visit/pregnancy_visit/pregnancy_summary/visit_count_note:label">
+            <value>**यो <output value=" /pregnancy_visit/current_visit_count_ne "/> गर्भवती जाँच हो । **</value>
+          </text>
+        </translation>
+      </itext>
+      <instance>
+        <pregnancy_visit id="pregnancy_visit" prefix="J1!pregnancy_visit!" delimiter="#" version="2023-12-28 02:50:46">
+          <inputs>
+            <meta>
+              <location>
+                <lat/>
+                <long/>
+                <error/>
+                <message/>
+              </location>
+            </meta>
+            <source>user</source>
+            <source_id/>
+            <contact>
+              <_id/>
+              <name/>
+              <patient_id/>
+              <date_of_birth>0</date_of_birth>
+              <sex/>
+              <parent>
+                <name/>
+                <parent>
+                  <name/>
+                  <contact>
+                    <chw_name/>
+                    <phone/>
+                  </contact>
+                </parent>
+              </parent>
+            </contact>
+          </inputs>
+          <patient_age_in_years/>
+          <patient_uuid tag="hidden"/>
+          <patient_id tag="hidden"/>
+          <patient_name tag="hidden"/>
+          <lmp_date tag="hidden"/>
+          <lmp_date_formatted tag="hidden"/>
+          <lmp_date_formatted_ne/>
+          <edd_date tag="hidden"/>
+          <edd_date_formatted tag="hidden"/>
+          <edd_date_formatted_ne/>
+          <days_since_lmp tag="hidden"/>
+          <current_visit_count tag="hidden"/>
+          <current_visit_count_ne/>
+          <context_vars tag="hidden">
+            <lmp_date_ctx tag="hidden"/>
+            <edd_ctx tag="hidden"/>
+          </context_vars>
+          <pregnancy_visit tag="hidden">
+            <pregnancy_summary tag="hidden">
+              <visit_count_note tag="hidden"/>
+              <lmp_note tag="hidden"/>
+              <edd_note tag="hidden"/>
+            </pregnancy_summary>
+            <danger_signs tag="hidden">
+              <danger_signs_note tag="hidden"/>
+              <vaginal_bleeding tag="hidden"/>
+              <fits tag="hidden"/>
+              <severe_abdominal_pain tag="hidden"/>
+              <blood_pressure tag="hidden"/>
+              <anemia tag="hidden"/>
+              <fever tag="hidden"/>
+              <face_hand_swelling tag="hidden"/>
+              <breathlessness tag="hidden"/>
+              <heart_beat tag="hidden"/>
+              <if_any tag="hidden"/>
+              <is_danger_sign_present/>
+            </danger_signs>
+          </pregnancy_visit>
+          <meta tag="hidden">
+            <instanceID/>
+          </meta>
+        </pregnancy_visit>
+      </instance>
+      <instance id="contact-summary"/>
+      <bind nodeset="/pregnancy_visit/inputs" relevant="./source = 'user'"/>
+      <bind nodeset="/pregnancy_visit/inputs/source" type="string"/>
+      <bind nodeset="/pregnancy_visit/inputs/source_id" type="string"/>
+      <bind nodeset="/pregnancy_visit/inputs/contact/_id" type="db:person"/>
+      <bind nodeset="/pregnancy_visit/inputs/contact/name" type="string"/>
+      <bind nodeset="/pregnancy_visit/inputs/contact/patient_id" type="string"/>
+      <bind nodeset="/pregnancy_visit/inputs/contact/date_of_birth" type="string"/>
+      <bind nodeset="/pregnancy_visit/inputs/contact/sex" type="string"/>
+      <bind nodeset="/pregnancy_visit/inputs/contact/parent/name" type="string"/>
+      <bind nodeset="/pregnancy_visit/inputs/contact/parent/parent/name" type="string"/>
+      <bind nodeset="/pregnancy_visit/inputs/contact/parent/parent/contact/chw_name" type="string"/>
+      <bind nodeset="/pregnancy_visit/inputs/contact/parent/parent/contact/phone" type="string"/>
+      <bind nodeset="/pregnancy_visit/patient_age_in_years" type="string" calculate="floor( difference-in-months( ../inputs/contact/date_of_birth, today() ) div 12 )"/>
+      <bind nodeset="/pregnancy_visit/patient_uuid" type="string" calculate="../inputs/contact/_id"/>
+      <bind nodeset="/pregnancy_visit/patient_id" type="string" calculate="../inputs/contact/patient_id" required="true()"/>
+      <bind nodeset="/pregnancy_visit/patient_name" type="string" calculate="../inputs/contact/name"/>
+      <bind nodeset="/pregnancy_visit/lmp_date" type="string" calculate="../context_vars/lmp_date_ctx"/>
+      <bind nodeset="/pregnancy_visit/lmp_date_formatted" type="string" calculate="format-date-time(../lmp_date,&quot;%e %b, %Y&quot;)"/>
+      <bind nodeset="/pregnancy_visit/lmp_date_formatted_ne" type="string" calculate="to-bikram-sambat(../lmp_date)"/>
+      <bind nodeset="/pregnancy_visit/edd_date" type="string" calculate="../context_vars/edd_ctx"/>
+      <bind nodeset="/pregnancy_visit/edd_date_formatted" type="string" calculate="format-date-time(../edd_date,&quot;%e %b, %Y&quot;)"/>
+      <bind nodeset="/pregnancy_visit/edd_date_formatted_ne" type="string" calculate="to-bikram-sambat(../edd_date)"/>
+      <bind nodeset="/pregnancy_visit/days_since_lmp" type="string" calculate="floor(decimal-date-time(today())) - decimal-date-time(../lmp_date)"/>
+      <bind nodeset="/pregnancy_visit/current_visit_count" type="string" calculate="if( /pregnancy_visit/days_since_lmp  &lt; 84,1, if( /pregnancy_visit/days_since_lmp  &lt; 112,2, if( /pregnancy_visit/days_since_lmp  &lt; 168,3, if( /pregnancy_visit/days_since_lmp  &lt; 196,4, if( /pregnancy_visit/days_since_lmp  &lt; 224,5, if( /pregnancy_visit/days_since_lmp  &lt; 238,6, if( /pregnancy_visit/days_since_lmp  &lt; 252,7, if( /pregnancy_visit/days_since_lmp  &lt; 280,8, -1))))))))"/>
+      <bind nodeset="/pregnancy_visit/current_visit_count_ne" type="string" calculate="if( /pregnancy_visit/current_visit_count  = 1, 'पहिलो', if( /pregnancy_visit/current_visit_count  = 2, 'दोश्रो', if( /pregnancy_visit/current_visit_count  = 3, 'तेश्रो', if( /pregnancy_visit/current_visit_count  = 4, 'चौथो', if( /pregnancy_visit/current_visit_count  = 5,'पाचौँ', if( /pregnancy_visit/current_visit_count  = 6, 'छैठौँ', if( /pregnancy_visit/current_visit_count  = 7, 'सातौँ', if( /pregnancy_visit/current_visit_count  = 8, 'आठौँ', 'प्रोटोकल बाहिरको'))))))))"/>
+      <bind nodeset="/pregnancy_visit/context_vars/lmp_date_ctx" type="string" calculate="if(instance('contact-summary')/context/lmp_date != '', instance('contact-summary')/context/lmp_date, .)"/>
+      <bind nodeset="/pregnancy_visit/context_vars/edd_ctx" type="string" calculate="if(instance('contact-summary')/context/edd != '', instance('contact-summary')/context/edd, .)"/>
+      <bind nodeset="/pregnancy_visit/pregnancy_visit/pregnancy_summary/visit_count_note" readonly="true()" type="string"/>
+      <bind nodeset="/pregnancy_visit/pregnancy_visit/pregnancy_summary/lmp_note" readonly="true()" type="string"/>
+      <bind nodeset="/pregnancy_visit/pregnancy_visit/pregnancy_summary/edd_note" readonly="true()" type="string"/>
+      <bind nodeset="/pregnancy_visit/pregnancy_visit/danger_signs/danger_signs_note" readonly="true()" type="string"/>
+      <bind nodeset="/pregnancy_visit/pregnancy_visit/danger_signs/vaginal_bleeding" type="select1" required="true()"/>
+      <bind nodeset="/pregnancy_visit/pregnancy_visit/danger_signs/fits" type="select1" required="true()"/>
+      <bind nodeset="/pregnancy_visit/pregnancy_visit/danger_signs/severe_abdominal_pain" type="select1" required="true()"/>
+      <bind nodeset="/pregnancy_visit/pregnancy_visit/danger_signs/blood_pressure" type="select1" required="true()"/>
+      <bind nodeset="/pregnancy_visit/pregnancy_visit/danger_signs/anemia" type="select1" required="true()"/>
+      <bind nodeset="/pregnancy_visit/pregnancy_visit/danger_signs/fever" type="select1" required="true()"/>
+      <bind nodeset="/pregnancy_visit/pregnancy_visit/danger_signs/face_hand_swelling" type="select1" required="true()"/>
+      <bind nodeset="/pregnancy_visit/pregnancy_visit/danger_signs/breathlessness" type="select1" required="true()"/>
+      <bind nodeset="/pregnancy_visit/pregnancy_visit/danger_signs/heart_beat" type="select1" required="true()"/>
+      <bind nodeset="/pregnancy_visit/pregnancy_visit/danger_signs/if_any" type="string"/>
+      <bind nodeset="/pregnancy_visit/pregnancy_visit/danger_signs/is_danger_sign_present" type="string" calculate="if(selected(../vaginal_bleeding, 'yes') 
+or selected(../fits, 'yes') 
+or selected(../severe_abdominal_pain, 'yes') 
+or selected(../blood_pressure, 'yes') 
+or selected(../anemia, 'yes') 
+or selected(../fever, 'yes') 
+or selected(../face_hand_swelling, 'yes') 
+or selected(../heart_beat, 'yes') 
+or selected(../breathlessness, 'yes'), 
+'yes', 'no')"/>
+      <bind nodeset="/pregnancy_visit/meta/instanceID" type="string" readonly="true()" calculate="concat('uuid:', uuid())"/>
+    </model>
+  </h:head>
+  <h:body class="pages">
+    <group appearance="field-list" ref="/pregnancy_visit/inputs">
+      <label ref="jr:itext('/pregnancy_visit/inputs:label')"/>
+      <group ref="/pregnancy_visit/inputs/contact">
+        <label ref="jr:itext('/pregnancy_visit/inputs/contact:label')"/>
+        <input appearance="db-object" ref="/pregnancy_visit/inputs/contact/_id">
+          <label ref="jr:itext('/pregnancy_visit/inputs/contact/_id:label')"/>
+        </input>
+        <group ref="/pregnancy_visit/inputs/contact/parent">
+          <label ref="jr:itext('/pregnancy_visit/inputs/contact/parent:label')"/>
+          <group ref="/pregnancy_visit/inputs/contact/parent/parent">
+            <label ref="jr:itext('/pregnancy_visit/inputs/contact/parent/parent:label')"/>
+            <group ref="/pregnancy_visit/inputs/contact/parent/parent/contact">
+              <label ref="jr:itext('/pregnancy_visit/inputs/contact/parent/parent/contact:label')"/>
+            </group>
+          </group>
+        </group>
+      </group>
+    </group>
+    <group ref="/pregnancy_visit/context_vars"/>
+    <group appearance="field-list" ref="/pregnancy_visit/pregnancy_visit">
+      <group ref="/pregnancy_visit/pregnancy_visit/pregnancy_summary">
+        <input ref="/pregnancy_visit/pregnancy_visit/pregnancy_summary/visit_count_note">
+          <label ref="jr:itext('/pregnancy_visit/pregnancy_visit/pregnancy_summary/visit_count_note:label')"/>
+        </input>
+        <input ref="/pregnancy_visit/pregnancy_visit/pregnancy_summary/lmp_note">
+          <label ref="jr:itext('/pregnancy_visit/pregnancy_visit/pregnancy_summary/lmp_note:label')"/>
+        </input>
+        <input ref="/pregnancy_visit/pregnancy_visit/pregnancy_summary/edd_note">
+          <label ref="jr:itext('/pregnancy_visit/pregnancy_visit/pregnancy_summary/edd_note:label')"/>
+        </input>
+      </group>
+      <group ref="/pregnancy_visit/pregnancy_visit/danger_signs">
+        <input ref="/pregnancy_visit/pregnancy_visit/danger_signs/danger_signs_note">
+          <label ref="jr:itext('/pregnancy_visit/pregnancy_visit/danger_signs/danger_signs_note:label')"/>
+        </input>
+        <select1 ref="/pregnancy_visit/pregnancy_visit/danger_signs/vaginal_bleeding">
+          <label ref="jr:itext('/pregnancy_visit/pregnancy_visit/danger_signs/vaginal_bleeding:label')"/>
+          <item>
+            <label ref="jr:itext('/pregnancy_visit/pregnancy_visit/danger_signs/vaginal_bleeding/yes:label')"/>
+            <value>yes</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/pregnancy_visit/pregnancy_visit/danger_signs/vaginal_bleeding/no:label')"/>
+            <value>no</value>
+          </item>
+        </select1>
+        <select1 ref="/pregnancy_visit/pregnancy_visit/danger_signs/fits">
+          <label ref="jr:itext('/pregnancy_visit/pregnancy_visit/danger_signs/fits:label')"/>
+          <item>
+            <label ref="jr:itext('/pregnancy_visit/pregnancy_visit/danger_signs/fits/yes:label')"/>
+            <value>yes</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/pregnancy_visit/pregnancy_visit/danger_signs/fits/no:label')"/>
+            <value>no</value>
+          </item>
+        </select1>
+        <select1 ref="/pregnancy_visit/pregnancy_visit/danger_signs/severe_abdominal_pain">
+          <label ref="jr:itext('/pregnancy_visit/pregnancy_visit/danger_signs/severe_abdominal_pain:label')"/>
+          <item>
+            <label ref="jr:itext('/pregnancy_visit/pregnancy_visit/danger_signs/severe_abdominal_pain/yes:label')"/>
+            <value>yes</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/pregnancy_visit/pregnancy_visit/danger_signs/severe_abdominal_pain/no:label')"/>
+            <value>no</value>
+          </item>
+        </select1>
+        <select1 ref="/pregnancy_visit/pregnancy_visit/danger_signs/blood_pressure">
+          <label ref="jr:itext('/pregnancy_visit/pregnancy_visit/danger_signs/blood_pressure:label')"/>
+          <item>
+            <label ref="jr:itext('/pregnancy_visit/pregnancy_visit/danger_signs/blood_pressure/yes:label')"/>
+            <value>yes</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/pregnancy_visit/pregnancy_visit/danger_signs/blood_pressure/no:label')"/>
+            <value>no</value>
+          </item>
+        </select1>
+        <select1 ref="/pregnancy_visit/pregnancy_visit/danger_signs/anemia">
+          <label ref="jr:itext('/pregnancy_visit/pregnancy_visit/danger_signs/anemia:label')"/>
+          <item>
+            <label ref="jr:itext('/pregnancy_visit/pregnancy_visit/danger_signs/anemia/yes:label')"/>
+            <value>yes</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/pregnancy_visit/pregnancy_visit/danger_signs/anemia/no:label')"/>
+            <value>no</value>
+          </item>
+        </select1>
+        <select1 ref="/pregnancy_visit/pregnancy_visit/danger_signs/fever">
+          <label ref="jr:itext('/pregnancy_visit/pregnancy_visit/danger_signs/fever:label')"/>
+          <item>
+            <label ref="jr:itext('/pregnancy_visit/pregnancy_visit/danger_signs/fever/yes:label')"/>
+            <value>yes</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/pregnancy_visit/pregnancy_visit/danger_signs/fever/no:label')"/>
+            <value>no</value>
+          </item>
+        </select1>
+        <select1 ref="/pregnancy_visit/pregnancy_visit/danger_signs/face_hand_swelling">
+          <label ref="jr:itext('/pregnancy_visit/pregnancy_visit/danger_signs/face_hand_swelling:label')"/>
+          <item>
+            <label ref="jr:itext('/pregnancy_visit/pregnancy_visit/danger_signs/face_hand_swelling/yes:label')"/>
+            <value>yes</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/pregnancy_visit/pregnancy_visit/danger_signs/face_hand_swelling/no:label')"/>
+            <value>no</value>
+          </item>
+        </select1>
+        <select1 ref="/pregnancy_visit/pregnancy_visit/danger_signs/breathlessness">
+          <label ref="jr:itext('/pregnancy_visit/pregnancy_visit/danger_signs/breathlessness:label')"/>
+          <item>
+            <label ref="jr:itext('/pregnancy_visit/pregnancy_visit/danger_signs/breathlessness/yes:label')"/>
+            <value>yes</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/pregnancy_visit/pregnancy_visit/danger_signs/breathlessness/no:label')"/>
+            <value>no</value>
+          </item>
+        </select1>
+        <select1 ref="/pregnancy_visit/pregnancy_visit/danger_signs/heart_beat">
+          <label ref="jr:itext('/pregnancy_visit/pregnancy_visit/danger_signs/heart_beat:label')"/>
+          <item>
+            <label ref="jr:itext('/pregnancy_visit/pregnancy_visit/danger_signs/heart_beat/yes:label')"/>
+            <value>yes</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/pregnancy_visit/pregnancy_visit/danger_signs/heart_beat/no:label')"/>
+            <value>no</value>
+          </item>
+        </select1>
+        <input ref="/pregnancy_visit/pregnancy_visit/danger_signs/if_any">
+          <label ref="jr:itext('/pregnancy_visit/pregnancy_visit/danger_signs/if_any:label')"/>
+        </input>
+      </group>
+    </group>
+  </h:body>
+</h:html>

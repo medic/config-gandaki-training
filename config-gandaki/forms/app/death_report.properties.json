@@ -1,0 +1,18 @@
+{
+  "title": [
+    {
+      "locale": "en",
+      "content": "Death Registry Form"
+    },
+    {
+      "locale": "ne",
+      "content": "मृत्यु दर्ता"
+    }
+  ],
+  "context": {
+    "place": false,
+    "person": true,
+    "expression": "contact.type === 'person' && (!contact.role || contact.role === 'patient') && !contact.muted && !contact.date_of_death"
+  },
+  "icon": "icon-death"
+}

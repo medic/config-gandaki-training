@@ -1,0 +1,18 @@
+{
+  "title": [
+    {
+      "locale": "en",
+      "content": "Muting"
+    },
+    {
+      "locale": "ne",
+      "content": "सेवा बन्द गर्ने"
+    }
+  ],
+  "context": {
+    "place": true,
+    "person": true,
+    "expression": "contact.type === 'person' && (!contact.role || contact.role === 'patient') && !contact.muted && !contact.date_of_death"
+  },
+  "icon": "icon-off"
+}

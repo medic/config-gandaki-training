@@ -1,0 +1,19 @@
+{
+  "title": [
+    {
+      "locale": "en",
+      "content": "Delivery registration"
+    },
+    {
+      "locale": "ne",
+      "content": "सुत्केरी विवरण फारम"
+    }
+  ],
+  "context": {
+    "place": false,
+    "person": true,
+    "expression": "contact.type === 'person' && contact.sex !== 'male' && ageInYears(contact) >= 15 && summary.is_active_pregnancy && !contact.muted && !contact.date_of_death"
+  },
+  "icon": "icon-delivery",
+  "hidden_fields": ["baby_repeat_count","if_baby_birth_gt_3","mother_status","no_of_baby_birth","delivery_place","delivery_date"]
+}

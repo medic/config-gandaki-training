@@ -1,0 +1,18 @@
+{
+  "title": [
+    {
+      "locale": "en",
+      "content": "Pregnancy registration"
+    },
+    {
+      "locale": "ne",
+      "content": "गर्भवती दर्ता"
+    }
+  ],
+  "context": {
+    "place": false,
+    "person": true,
+    "expression": "contact.type === 'person' && contact.sex !== 'male' && ageInYears(contact) >= 15 && summary.show_pregnancy_form && !contact.muted && !contact.date_of_death"
+  },
+  "icon": "icon-pregnancy"
+}

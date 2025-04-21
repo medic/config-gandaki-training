@@ -1,0 +1,155 @@
+<?xml version="1.0"?>
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:jr="http://openrosa.org/javarosa" xmlns:orx="http://openrosa.org/xforms">
+  <h:head>
+    <h:title>Unmute</h:title>
+    <model>
+      <itext>
+        <translation lang="en">
+          <text id="/unmute/inputs/contact/_id:label">
+            <value>What is the patient's name?</value>
+          </text>
+          <text id="/unmute/inputs/contact/name:label">
+            <value>Name</value>
+          </text>
+          <text id="/unmute/inputs/contact/patient_id:label">
+            <value>Patient ID</value>
+          </text>
+          <text id="/unmute/inputs/contact/short_name:label">
+            <value>Short Name</value>
+          </text>
+          <text id="/unmute/inputs/contact:label">
+            <value>Contact</value>
+          </text>
+          <text id="/unmute/inputs/source:label">
+            <value>Source</value>
+          </text>
+          <text id="/unmute/inputs/source_id:label">
+            <value>Source ID</value>
+          </text>
+          <text id="/unmute/inputs:label">
+            <value>Patient</value>
+          </text>
+          <text id="/unmute/unmuting/reason/agree:label">
+            <value>Willing to continue service</value>
+          </text>
+          <text id="/unmute/unmuting/reason/other:label">
+            <value>Other</value>
+          </text>
+          <text id="/unmute/unmuting/reason/return:label">
+            <value>Returned</value>
+          </text>
+          <text id="/unmute/unmuting/reason:label">
+            <value>Why are you resuming the service?</value>
+          </text>
+          <text id="/unmute/unmuting/reason_other:label">
+            <value>Specify</value>
+          </text>
+          <text id="/unmute/unmuting:label">
+            <value>Muting</value>
+          </text>
+        </translation>
+        <translation lang="ne">
+          <text id="/unmute/inputs/contact/_id:label">
+            <value>सेवा लिनेको नाम के हो?</value>
+          </text>
+          <text id="/unmute/unmuting/reason/agree:label">
+            <value>सेवा सुचारु गर्न चाहेको</value>
+          </text>
+          <text id="/unmute/unmuting/reason/other:label">
+            <value>अन्य</value>
+          </text>
+          <text id="/unmute/unmuting/reason/return:label">
+            <value>फिर्ता आएको</value>
+          </text>
+          <text id="/unmute/unmuting/reason:label">
+            <value>सेवा सुचारु गर्नु को कारण</value>
+          </text>
+          <text id="/unmute/unmuting/reason_other:label">
+            <value>उल्लेख गर्नुहोस्</value>
+          </text>
+          <text id="/unmute/unmuting:label">
+            <value>सेवा सुचारु</value>
+          </text>
+        </translation>
+      </itext>
+      <instance>
+        <unmute id="unmute" prefix="J1!unmute!" delimiter="#" version="2025-02-28 16:46:16">
+          <inputs>
+            <meta>
+              <location>
+                <lat/>
+                <long/>
+                <error/>
+                <message/>
+              </location>
+            </meta>
+            <source>user</source>
+            <source_id/>
+            <contact>
+              <_id/>
+              <name/>
+              <short_name/>
+              <patient_id/>
+            </contact>
+          </inputs>
+          <patient_uuid tag="hidden"/>
+          <patient_id tag="hidden"/>
+          <unmuting>
+            <reason tag="hidden"/>
+            <reason_ne/>
+            <reason_other/>
+          </unmuting>
+          <meta tag="hidden">
+            <instanceID/>
+          </meta>
+        </unmute>
+      </instance>
+      <instance id="contact-summary"/>
+      <bind nodeset="/unmute/inputs" relevant="./source = 'user'"/>
+      <bind nodeset="/unmute/inputs/source" type="string"/>
+      <bind nodeset="/unmute/inputs/source_id" type="string"/>
+      <bind nodeset="/unmute/inputs/contact/_id" type="db:person"/>
+      <bind nodeset="/unmute/inputs/contact/name" type="string"/>
+      <bind nodeset="/unmute/inputs/contact/short_name" type="string"/>
+      <bind nodeset="/unmute/inputs/contact/patient_id" type="string"/>
+      <bind nodeset="/unmute/patient_uuid" type="string" calculate="../inputs/contact/_id"/>
+      <bind nodeset="/unmute/patient_id" type="string" calculate="../inputs/contact/patient_id"/>
+      <bind nodeset="/unmute/unmuting/reason" type="select1" required="true()"/>
+      <bind nodeset="/unmute/unmuting/reason_ne" type="string" calculate="jr:choice-name( /unmute/unmuting/reason ,' /unmute/unmuting/reason ')"/>
+      <bind nodeset="/unmute/unmuting/reason_other" type="string" required="true()" relevant="../reason = 'other'"/>
+      <bind nodeset="/unmute/meta/instanceID" type="string" readonly="true()" calculate="concat('uuid:', uuid())"/>
+    </model>
+  </h:head>
+  <h:body>
+    <group appearance="field-list" ref="/unmute/inputs">
+      <label ref="jr:itext('/unmute/inputs:label')"/>
+      <group ref="/unmute/inputs/contact">
+        <label ref="jr:itext('/unmute/inputs/contact:label')"/>
+        <input appearance="db-object" ref="/unmute/inputs/contact/_id">
+          <label ref="jr:itext('/unmute/inputs/contact/_id:label')"/>
+        </input>
+      </group>
+    </group>
+    <group appearance="field-list" ref="/unmute/unmuting">
+      <label ref="jr:itext('/unmute/unmuting:label')"/>
+      <select1 ref="/unmute/unmuting/reason">
+        <label ref="jr:itext('/unmute/unmuting/reason:label')"/>
+        <item>
+          <label ref="jr:itext('/unmute/unmuting/reason/agree:label')"/>
+          <value>agree</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/unmute/unmuting/reason/return:label')"/>
+          <value>return</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/unmute/unmuting/reason/other:label')"/>
+          <value>other</value>
+        </item>
+      </select1>
+      <input ref="/unmute/unmuting/reason_other">
+        <label ref="jr:itext('/unmute/unmuting/reason_other:label')"/>
+      </input>
+    </group>
+  </h:body>
+</h:html>

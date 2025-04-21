@@ -1,0 +1,17 @@
+{
+  "icon-people-woman": "icon-people-woman@2x.png",
+  "icon-people-woman-pregnant": "icon-people-woman-pregnant@2x.png",
+  "icon-delivery": "icon-delivery@2x.png",
+  "icon-anc-danger-sign": "icon-ANC-danger-sign@2x.png",
+  "icon-pregnancy": "icon-people-woman-pregnant.svg",
+  "icon-pnc": "icon-people-woman-baby.svg",
+  "icon-anc-followup": "icon-followup-general.svg",
+  "icon-off": "icon-messages-off.svg",
+  "icon-on": "icon-messages-on.svg",
+  "medic-district-hospital": "icon-places-MOH.svg",
+  "medic-municipality": "icon-places-MOH.svg",
+  "medic-health-center": "icon-places-hospital.svg",
+  "medic-clinic": "hierarchies-chw-area.svg",
+  "medic-person" : "medic-person.svg",
+  "icon-death" : "icon-death-general.svg"
+}

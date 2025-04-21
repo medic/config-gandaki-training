@@ -1,0 +1,365 @@
+<?xml version="1.0"?>
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:jr="http://openrosa.org/javarosa" xmlns:orx="http://openrosa.org/xforms">
+  <h:head>
+    <h:title>Delivery Registration</h:title>
+    <model>
+      <itext>
+        <translation lang="en">
+          <text id="/delivery/delivery/bbyinfo/baby_birth_cnt:jr:constraintMsg">
+            <value>Should be between 3 and Five only</value>
+          </text>
+          <text id="/delivery/delivery/bbyinfo/baby_repeat/baby_details/baby_sex/female:label">
+            <value>Female</value>
+          </text>
+          <text id="/delivery/delivery/bbyinfo/baby_repeat/baby_details/baby_sex/male:label">
+            <value>Male</value>
+          </text>
+          <text id="/delivery/delivery/bbyinfo/baby_repeat/baby_details/baby_sex:label">
+            <value>Gender of new born baby</value>
+          </text>
+          <text id="/delivery/delivery/bbyinfo/baby_repeat/baby_details/baby_status/alive:label">
+            <value>Alive</value>
+          </text>
+          <text id="/delivery/delivery/bbyinfo/baby_repeat/baby_details/baby_status/death:label">
+            <value>Dead</value>
+          </text>
+          <text id="/delivery/delivery/bbyinfo/baby_repeat/baby_details/baby_status:label">
+            <value>What is the condition of Baby?</value>
+          </text>
+          <text id="/delivery/delivery/bbyinfo/baby_repeat/baby_details/baby_wt:jr:constraintMsg">
+            <value>१ देखि ७ किलो सम्म मात्र मान्य</value>
+          </text>
+          <text id="/delivery/delivery/bbyinfo/baby_repeat/baby_details/baby_wt:label">
+            <value>Birth weight in Kg</value>
+          </text>
+          <text id="/delivery/delivery/bbyinfo/if_baby_birth_gt_3:label">
+            <value>If 3 or more, mention below :</value>
+          </text>
+          <text id="/delivery/delivery/bbyinfo/no_of_baby_birth/1:label">
+            <value>1</value>
+          </text>
+          <text id="/delivery/delivery/bbyinfo/no_of_baby_birth/2:label">
+            <value>2</value>
+          </text>
+          <text id="/delivery/delivery/bbyinfo/no_of_baby_birth/more:label">
+            <value>If 3 or more</value>
+          </text>
+          <text id="/delivery/delivery/bbyinfo/no_of_baby_birth:label">
+            <value>How many babies were delivered ?</value>
+          </text>
+          <text id="/delivery/delivery/bbyinfo:label">
+            <value>Baby Condition</value>
+          </text>
+          <text id="/delivery/delivery/delivery_date:jr:constraintMsg">
+            <value>Delivery date cannot be of future and more than fifty days before today.</value>
+          </text>
+          <text id="/delivery/delivery/delivery_date:label">
+            <value>Write down the date of delivery</value>
+          </text>
+          <text id="/delivery/delivery/note_lmp_edd:label">
+            <value>Patient's LMP: <output value=" /delivery/lmp_date_formatted "/> and EDD: <output value=" /delivery/edd_date_formatted "/></value></text>
+          <text id="/delivery/inputs/contact/_id:label">
+            <value>What is the patient's name?</value>
+          </text>
+          <text id="/delivery/inputs/contact/date_of_birth:label">
+            <value>Date of Birth</value>
+          </text>
+          <text id="/delivery/inputs/contact/name:label">
+            <value>Name</value>
+          </text>
+          <text id="/delivery/inputs/contact/parent/name:label">
+            <value>FCHV Area</value>
+          </text>
+          <text id="/delivery/inputs/contact/parent/parent/contact/chw_name:label">
+            <value>CHW name</value>
+          </text>
+          <text id="/delivery/inputs/contact/parent/parent/contact/phone:label">
+            <value>CHW phone</value>
+          </text>
+          <text id="/delivery/inputs/contact/parent/parent/contact:label">
+            <value>Contact</value>
+          </text>
+          <text id="/delivery/inputs/contact/parent/parent/name:label">
+            <value>CHN Area</value>
+          </text>
+          <text id="/delivery/inputs/contact/parent/parent:label">
+            <value>Parent</value>
+          </text>
+          <text id="/delivery/inputs/contact/parent:label">
+            <value>Parent</value>
+          </text>
+          <text id="/delivery/inputs/contact/patient_id:label">
+            <value>Patient ID</value>
+          </text>
+          <text id="/delivery/inputs/contact/sex:label">
+            <value>Sex</value>
+          </text>
+          <text id="/delivery/inputs/contact:label">
+            <value>Contact</value>
+          </text>
+          <text id="/delivery/inputs/source:label">
+            <value>Source</value>
+          </text>
+          <text id="/delivery/inputs/source_id:label">
+            <value>Source ID</value>
+          </text>
+          <text id="/delivery/inputs:label">
+            <value>Patient</value>
+          </text>
+        </translation>
+        <translation lang="ne">
+          <text id="/delivery/delivery/bbyinfo/baby_birth_cnt:jr:constraintMsg">
+            <value>३ देखि ५ सम्म मात्र राख्न मिल्छ</value>
+          </text>
+          <text id="/delivery/delivery/bbyinfo/baby_repeat/baby_details/baby_sex/female:label">
+            <value>महिला</value>
+          </text>
+          <text id="/delivery/delivery/bbyinfo/baby_repeat/baby_details/baby_sex/male:label">
+            <value>पुरुष</value>
+          </text>
+          <text id="/delivery/delivery/bbyinfo/baby_repeat/baby_details/baby_sex:label">
+            <value>नवजात शिशुको लिंग</value>
+          </text>
+          <text id="/delivery/delivery/bbyinfo/baby_repeat/baby_details/baby_status/alive:label">
+            <value>जिवित</value>
+          </text>
+          <text id="/delivery/delivery/bbyinfo/baby_repeat/baby_details/baby_status/death:label">
+            <value>मृत्यु</value>
+          </text>
+          <text id="/delivery/delivery/bbyinfo/baby_repeat/baby_details/baby_status:label">
+            <value>बच्चा को अवस्था कस्तो छ ?</value>
+          </text>
+          <text id="/delivery/delivery/bbyinfo/baby_repeat/baby_details/baby_wt:jr:constraintMsg">
+            <value>-</value>
+          </text>
+          <text id="/delivery/delivery/bbyinfo/baby_repeat/baby_details/baby_wt:label">
+            <value>बच्चा कति के.जी. थियो?</value>
+          </text>
+          <text id="/delivery/delivery/bbyinfo/if_baby_birth_gt_3:label">
+            <value>३ वा ३ भन्दा बढी भए तल संख्यामा उल्लेख गर्नुहोस् :</value>
+          </text>
+          <text id="/delivery/delivery/bbyinfo/no_of_baby_birth/1:label">
+            <value>१</value>
+          </text>
+          <text id="/delivery/delivery/bbyinfo/no_of_baby_birth/2:label">
+            <value>२</value>
+          </text>
+          <text id="/delivery/delivery/bbyinfo/no_of_baby_birth/more:label">
+            <value>३ वा ३ भन्दा बढी</value>
+          </text>
+          <text id="/delivery/delivery/bbyinfo/no_of_baby_birth:label">
+            <value>कतिवटा बच्चा जन्माउनु भएको थियो ?</value>
+          </text>
+          <text id="/delivery/delivery/bbyinfo:label">
+            <value>नवजात शिशुको अवस्था</value>
+          </text>
+          <text id="/delivery/delivery/delivery_date:jr:constraintMsg">
+            <value>सुत्केरी मिति भविष्यको र पचास दिन भन्दा बढीको हुनु हुदैन।</value>
+          </text>
+          <text id="/delivery/delivery/delivery_date:label">
+            <value>सुत्केरी भएको मिति लेख्नुहोस् ।</value>
+          </text>
+          <text id="/delivery/delivery/note_lmp_edd:label">
+            <value>उहाँको को अन्तिम महिनावारी **<output value=" /delivery/lmp_date_formatted_ne "/>** र सुत्केरी हुने अनुमानित मिति **<output value=" /delivery/edd_date_formatted_ne "/>** रहेको छ।</value>
+          </text>
+          <text id="/delivery/inputs/contact/_id:label">
+            <value>सेवा लिनेको नाम के हो?</value>
+          </text>
+        </translation>
+      </itext>
+      <instance>
+        <delivery id="delivery" prefix="J1!delivery!" delimiter="#" version="1">
+          <inputs>
+            <meta>
+              <location>
+                <lat/>
+                <long/>
+                <error/>
+                <message/>
+              </location>
+            </meta>
+            <source>user</source>
+            <source_id/>
+            <contact>
+              <_id/>
+              <name/>
+              <patient_id/>
+              <date_of_birth>0</date_of_birth>
+              <sex/>
+              <parent>
+                <name/>
+                <parent>
+                  <name/>
+                  <contact>
+                    <chw_name/>
+                    <phone/>
+                  </contact>
+                </parent>
+              </parent>
+            </contact>
+          </inputs>
+          <patient_age_in_years tag="hidden"/>
+          <patient_uuid tag="hidden"/>
+          <patient_id tag="hidden"/>
+          <patient_name tag="hidden"/>
+          <lmp_date tag="hidden"/>
+          <lmp_date_formatted tag="hidden"/>
+          <lmp_date_formatted_ne/>
+          <edd_date tag="hidden"/>
+          <edd_date_formatted tag="hidden"/>
+          <edd_date_formatted_ne tag="hidden"/>
+          <delivery_date_8601 tag="hidden"/>
+          <delivery_date_ne/>
+          <days_since_lmp tag="hidden"/>
+          <context_vars tag="hidden">
+            <lmp_date_ctx tag="hidden"/>
+            <edd_ctx tag="hidden"/>
+          </context_vars>
+          <delivery>
+            <note_lmp_edd tag="hidden"/>
+            <delivery_date tag="hidden"/>
+            <bbyinfo>
+              <no_of_baby_birth tag="hidden"/>
+              <if_baby_birth_gt_3 tag="hidden"/>
+              <baby_birth_cnt tag="hidden"/>
+              <baby_birth_cal tag="hidden"/>
+              <baby_repeat_count tag="hidden"/>
+              <baby_repeat jr:template="">
+                <baby_details>
+                  <baby_status/>
+                  <baby_sex/>
+                  <baby_wt tag="hidden"/>
+                </baby_details>
+              </baby_repeat>
+            </bbyinfo>
+          </delivery>
+          <meta tag="hidden">
+            <instanceID/>
+          </meta>
+        </delivery>
+      </instance>
+      <instance id="contact-summary"/>
+      <bind nodeset="/delivery/inputs" relevant="./source = 'user'"/>
+      <bind nodeset="/delivery/inputs/source" type="string"/>
+      <bind nodeset="/delivery/inputs/source_id" type="string"/>
+      <bind nodeset="/delivery/inputs/contact/_id" type="db:person"/>
+      <bind nodeset="/delivery/inputs/contact/name" type="string"/>
+      <bind nodeset="/delivery/inputs/contact/patient_id" type="string"/>
+      <bind nodeset="/delivery/inputs/contact/date_of_birth" type="string"/>
+      <bind nodeset="/delivery/inputs/contact/sex" type="string"/>
+      <bind nodeset="/delivery/inputs/contact/parent/name" type="string"/>
+      <bind nodeset="/delivery/inputs/contact/parent/parent/name" type="string"/>
+      <bind nodeset="/delivery/inputs/contact/parent/parent/contact/chw_name" type="string"/>
+      <bind nodeset="/delivery/inputs/contact/parent/parent/contact/phone" type="string"/>
+      <bind nodeset="/delivery/patient_age_in_years" type="string" calculate="floor( difference-in-months( ../inputs/contact/date_of_birth, today() ) div 12 )"/>
+      <bind nodeset="/delivery/patient_uuid" type="string" calculate="../inputs/contact/_id"/>
+      <bind nodeset="/delivery/patient_id" type="string" required="true()" calculate="../inputs/contact/patient_id"/>
+      <bind nodeset="/delivery/patient_name" type="string" calculate="../inputs/contact/name"/>
+      <bind nodeset="/delivery/lmp_date" type="string" calculate="../context_vars/lmp_date_ctx"/>
+      <bind nodeset="/delivery/lmp_date_formatted" type="string" calculate="format-date-time(../lmp_date,&quot;%e %b, %Y&quot;)"/>
+      <bind nodeset="/delivery/lmp_date_formatted_ne" type="string" calculate="to-bikram-sambat(../lmp_date)"/>
+      <bind nodeset="/delivery/edd_date" type="string" calculate="../context_vars/edd_ctx"/>
+      <bind nodeset="/delivery/edd_date_formatted" type="string" calculate="format-date-time(../edd_date,&quot;%e %b, %Y&quot;)"/>
+      <bind nodeset="/delivery/edd_date_formatted_ne" type="string" calculate="to-bikram-sambat(../edd_date)"/>
+      <bind nodeset="/delivery/delivery_date_8601" type="string" calculate="format-date-time(  /delivery/delivery/delivery_date , &quot;%Y-%m-%d&quot;)"/>
+      <bind nodeset="/delivery/delivery_date_ne" type="string" calculate="to-bikram-sambat( /delivery/delivery_date_8601 )"/>
+      <bind nodeset="/delivery/days_since_lmp" type="string" calculate="floor(decimal-date-time(today())) - decimal-date-time(../lmp_date)"/>
+      <bind nodeset="/delivery/context_vars/lmp_date_ctx" type="string" calculate="if(instance('contact-summary')/context/lmp_date != '', instance('contact-summary')/context/lmp_date, .)"/>
+      <bind nodeset="/delivery/context_vars/edd_ctx" type="string" calculate="if(instance('contact-summary')/context/edd != '', instance('contact-summary')/context/edd, .)"/>
+      <bind nodeset="/delivery/delivery/note_lmp_edd" readonly="true()" type="string"/>
+      <bind nodeset="/delivery/delivery/delivery_date" type="date" required="true()" constraint="decimal-date-time(.) &lt;= (decimal-date-time(today())) and decimal-date-time(today()) - decimal-date-time(.) &lt;=50" jr:constraintMsg="jr:itext('/delivery/delivery/delivery_date:jr:constraintMsg')"/>
+      <bind nodeset="/delivery/delivery/bbyinfo/no_of_baby_birth" type="select1" required="true()"/>
+      <bind nodeset="/delivery/delivery/bbyinfo/if_baby_birth_gt_3" readonly="true()" type="string" relevant="selected( /delivery/delivery/bbyinfo/no_of_baby_birth , 'more')"/>
+      <bind nodeset="/delivery/delivery/bbyinfo/baby_birth_cnt" type="int" jr:constraintMsg="jr:itext('/delivery/delivery/bbyinfo/baby_birth_cnt:jr:constraintMsg')" constraint=". &gt;= 3 and . &lt;= 5" relevant="selected( /delivery/delivery/bbyinfo/no_of_baby_birth , 'more')"/>
+      <bind nodeset="/delivery/delivery/bbyinfo/baby_birth_cal" type="string" calculate="if(selected(../no_of_baby_birth, '1'), 1, if(selected(../no_of_baby_birth, '2'), 2, if(selected(../no_of_baby_birth, 'more') and ../baby_birth_cnt &gt; 2 and ../baby_birth_cnt &lt; 5, ../baby_birth_cnt, 0)))"/>
+      <bind nodeset="/delivery/delivery/bbyinfo/baby_repeat_count" type="string" readonly="true()" calculate=" /delivery/delivery/bbyinfo/baby_birth_cal "/>
+      <bind nodeset="/delivery/delivery/bbyinfo/baby_repeat/baby_details/baby_status" type="select1" required="true()"/>
+      <bind nodeset="/delivery/delivery/bbyinfo/baby_repeat/baby_details/baby_sex" type="select1" required="true()" relevant="selected( /delivery/delivery/bbyinfo/baby_repeat/baby_details/baby_status ,'alive') or selected( /delivery/delivery/bbyinfo/baby_repeat/baby_details/baby_status ,'death')"/>
+      <bind nodeset="/delivery/delivery/bbyinfo/baby_repeat/baby_details/baby_wt" type="decimal" required="true()" constraint="(.)&gt;=1 and (.)&lt;=7" jr:constraintMsg="jr:itext('/delivery/delivery/bbyinfo/baby_repeat/baby_details/baby_wt:jr:constraintMsg')"/>
+      <bind nodeset="/delivery/meta/instanceID" type="string" readonly="true()" calculate="concat('uuid:', uuid())"/>
+    </model>
+  </h:head>
+  <h:body class="pages">
+    <group ref="/delivery/inputs">
+      <label ref="jr:itext('/delivery/inputs:label')"/>
+      <group ref="/delivery/inputs/contact">
+        <label ref="jr:itext('/delivery/inputs/contact:label')"/>
+        <input appearance="db-object" ref="/delivery/inputs/contact/_id">
+          <label ref="jr:itext('/delivery/inputs/contact/_id:label')"/>
+        </input>
+        <group ref="/delivery/inputs/contact/parent">
+          <label ref="jr:itext('/delivery/inputs/contact/parent:label')"/>
+          <group ref="/delivery/inputs/contact/parent/parent">
+            <label ref="jr:itext('/delivery/inputs/contact/parent/parent:label')"/>
+            <group ref="/delivery/inputs/contact/parent/parent/contact">
+              <label ref="jr:itext('/delivery/inputs/contact/parent/parent/contact:label')"/>
+            </group>
+          </group>
+        </group>
+      </group>
+    </group>
+    <group ref="/delivery/context_vars"/>
+    <group appearance="field-list" ref="/delivery/delivery">
+      <input ref="/delivery/delivery/note_lmp_edd">
+        <label ref="jr:itext('/delivery/delivery/note_lmp_edd:label')"/>
+      </input>
+      <input ref="/delivery/delivery/delivery_date">
+        <label ref="jr:itext('/delivery/delivery/delivery_date:label')"/>
+      </input>
+      <group ref="/delivery/delivery/bbyinfo">
+        <label ref="jr:itext('/delivery/delivery/bbyinfo:label')"/>
+        <select1 ref="/delivery/delivery/bbyinfo/no_of_baby_birth">
+          <label ref="jr:itext('/delivery/delivery/bbyinfo/no_of_baby_birth:label')"/>
+          <item>
+            <label ref="jr:itext('/delivery/delivery/bbyinfo/no_of_baby_birth/1:label')"/>
+            <value>1</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/delivery/delivery/bbyinfo/no_of_baby_birth/2:label')"/>
+            <value>2</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/delivery/delivery/bbyinfo/no_of_baby_birth/more:label')"/>
+            <value>more</value>
+          </item>
+        </select1>
+        <input ref="/delivery/delivery/bbyinfo/if_baby_birth_gt_3">
+          <label ref="jr:itext('/delivery/delivery/bbyinfo/if_baby_birth_gt_3:label')"/>
+        </input>
+        <input ref="/delivery/delivery/bbyinfo/baby_birth_cnt"/>
+        <group ref="/delivery/delivery/bbyinfo/baby_repeat">
+          <label ref="jr:itext('/delivery/delivery/bbyinfo/baby_repeat:label')"/>
+          <repeat nodeset="/delivery/delivery/bbyinfo/baby_repeat" jr:count=" /delivery/delivery/bbyinfo/baby_repeat_count ">
+            <group ref="/delivery/delivery/bbyinfo/baby_repeat/baby_details">
+              <select1 ref="/delivery/delivery/bbyinfo/baby_repeat/baby_details/baby_status">
+                <label ref="jr:itext('/delivery/delivery/bbyinfo/baby_repeat/baby_details/baby_status:label')"/>
+                <item>
+                  <label ref="jr:itext('/delivery/delivery/bbyinfo/baby_repeat/baby_details/baby_status/alive:label')"/>
+                  <value>alive</value>
+                </item>
+                <item>
+                  <label ref="jr:itext('/delivery/delivery/bbyinfo/baby_repeat/baby_details/baby_status/death:label')"/>
+                  <value>death</value>
+                </item>
+              </select1>
+              <select1 ref="/delivery/delivery/bbyinfo/baby_repeat/baby_details/baby_sex">
+                <label ref="jr:itext('/delivery/delivery/bbyinfo/baby_repeat/baby_details/baby_sex:label')"/>
+                <item>
+                  <label ref="jr:itext('/delivery/delivery/bbyinfo/baby_repeat/baby_details/baby_sex/male:label')"/>
+                  <value>male</value>
+                </item>
+                <item>
+                  <label ref="jr:itext('/delivery/delivery/bbyinfo/baby_repeat/baby_details/baby_sex/female:label')"/>
+                  <value>female</value>
+                </item>
+              </select1>
+              <input appearance="Only allowed from 1 to 7 Kg" ref="/delivery/delivery/bbyinfo/baby_repeat/baby_details/baby_wt">
+                <label ref="jr:itext('/delivery/delivery/bbyinfo/baby_repeat/baby_details/baby_wt:label')"/>
+              </input>
+            </group>
+          </repeat>
+        </group>
+      </group>
+    </group>
+  </h:body>
+</h:html>

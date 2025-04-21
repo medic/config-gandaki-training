@@ -1,0 +1,18 @@
+{
+  "title": [
+    {
+      "locale": "en",
+      "content": "Pregnancy visit"
+    },
+    {
+      "locale": "ne",
+      "content": "गर्भ जाँच"
+    }
+  ],
+  "context": {
+    "place": false,
+    "person": true,
+    "expression": "contact.type === 'person' && contact.sex !== 'male' && ageInYears(contact) >= 15 && summary.is_active_pregnancy && !contact.muted && !contact.date_of_death"
+  },
+  "icon": "icon-anc-followup"
+}

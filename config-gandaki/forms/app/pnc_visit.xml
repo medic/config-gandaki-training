@@ -1,0 +1,208 @@
+<?xml version="1.0"?>
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:jr="http://openrosa.org/javarosa" xmlns:orx="http://openrosa.org/xforms">
+  <h:head>
+    <h:title>प्रसवोत्तर जाँच</h:title>
+    <model>
+      <itext>
+        <translation lang="en">
+          <text id="/pnc_visit/inputs/contact/_id:label">
+            <value>What is the patient's name?</value>
+          </text>
+          <text id="/pnc_visit/inputs/contact/date_of_birth:label">
+            <value>Date of Birth</value>
+          </text>
+          <text id="/pnc_visit/inputs/contact/name:label">
+            <value>Name</value>
+          </text>
+          <text id="/pnc_visit/inputs/contact/parent/name:label">
+            <value>FCHV Area</value>
+          </text>
+          <text id="/pnc_visit/inputs/contact/parent/parent/contact/chw_name:label">
+            <value>CHW name</value>
+          </text>
+          <text id="/pnc_visit/inputs/contact/parent/parent/contact/phone:label">
+            <value>CHW phone</value>
+          </text>
+          <text id="/pnc_visit/inputs/contact/parent/parent/contact:label">
+            <value>Contact</value>
+          </text>
+          <text id="/pnc_visit/inputs/contact/parent/parent/name:label">
+            <value>CHN Area</value>
+          </text>
+          <text id="/pnc_visit/inputs/contact/parent/parent:label">
+            <value>Parent</value>
+          </text>
+          <text id="/pnc_visit/inputs/contact/parent:label">
+            <value>Parent</value>
+          </text>
+          <text id="/pnc_visit/inputs/contact/patient_id:label">
+            <value>Patient ID</value>
+          </text>
+          <text id="/pnc_visit/inputs/contact/sex:label">
+            <value>Sex</value>
+          </text>
+          <text id="/pnc_visit/inputs/contact:label">
+            <value>Contact</value>
+          </text>
+          <text id="/pnc_visit/inputs/source:label">
+            <value>Source</value>
+          </text>
+          <text id="/pnc_visit/inputs/source_id:label">
+            <value>Source ID</value>
+          </text>
+          <text id="/pnc_visit/inputs:label">
+            <value>Patient</value>
+          </text>
+          <text id="/pnc_visit/pnc_visit/pnc_visit_done/no:label">
+            <value>No</value>
+          </text>
+          <text id="/pnc_visit/pnc_visit/pnc_visit_done/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/pnc_visit/pnc_visit/pnc_visit_done:label">
+            <value>Has her <output value=" /pnc_visit/current_visit_count "/> been completed?</value>
+          </text>
+          <text id="/pnc_visit/pnc_visit/visit_count_note:label">
+            <value>**This is PNC Visit No. <output value=" /pnc_visit/current_visit_count "/>**</value>
+          </text>
+        </translation>
+        <translation lang="ne">
+          <text id="/pnc_visit/inputs/contact/_id:label">
+            <value>सेवा लिनेको नाम के हो?</value>
+          </text>
+          <text id="/pnc_visit/pnc_visit/pnc_visit_done/no:label">
+            <value>छैन</value>
+          </text>
+          <text id="/pnc_visit/pnc_visit/pnc_visit_done/yes:label">
+            <value>छ</value>
+          </text>
+          <text id="/pnc_visit/pnc_visit/pnc_visit_done:label">
+            <value>के उहाँको <output value=" /pnc_visit/current_visit_count_ne "/> पीएनसी जाँच गरिएको छ?</value>
+          </text>
+          <text id="/pnc_visit/pnc_visit/visit_count_note:label">
+            <value>**यो <output value=" /pnc_visit/current_visit_count_ne "/> पीएनसी जाँच हो । **</value>
+          </text>
+        </translation>
+      </itext>
+      <instance>
+        <pnc_visit id="pnc_visit" prefix="J1!pnc_visit!" delimiter="#" version="2024-08-22 23:49:39">
+          <inputs>
+            <meta>
+              <location>
+                <lat/>
+                <long/>
+                <error/>
+                <message/>
+              </location>
+            </meta>
+            <source>user</source>
+            <source_id/>
+            <contact>
+              <_id/>
+              <name/>
+              <patient_id/>
+              <date_of_birth>0</date_of_birth>
+              <sex/>
+              <parent>
+                <name/>
+                <parent>
+                  <name/>
+                  <contact>
+                    <chw_name/>
+                    <phone/>
+                  </contact>
+                </parent>
+              </parent>
+            </contact>
+          </inputs>
+          <patient_age_in_years/>
+          <patient_uuid tag="hidden"/>
+          <patient_id tag="hidden"/>
+          <patient_name tag="hidden"/>
+          <delivery_date tag="hidden"/>
+          <delivery_date_formatted tag="hidden"/>
+          <delivery_date_formatted_ne/>
+          <days_since_delivery tag="hidden"/>
+          <current_visit_count tag="hidden"/>
+          <current_visit_count_ne/>
+          <context_vars tag="hidden">
+            <delivery_date_ctx tag="hidden"/>
+            <edd_ctx tag="hidden"/>
+          </context_vars>
+          <pnc_visit tag="hidden">
+            <visit_count_note tag="hidden"/>
+            <pnc_visit_done/>
+          </pnc_visit>
+          <meta tag="hidden">
+            <instanceID/>
+          </meta>
+        </pnc_visit>
+      </instance>
+      <instance id="contact-summary"/>
+      <bind nodeset="/pnc_visit/inputs" relevant="./source = 'user'"/>
+      <bind nodeset="/pnc_visit/inputs/source" type="string"/>
+      <bind nodeset="/pnc_visit/inputs/source_id" type="string"/>
+      <bind nodeset="/pnc_visit/inputs/contact/_id" type="db:person"/>
+      <bind nodeset="/pnc_visit/inputs/contact/name" type="string"/>
+      <bind nodeset="/pnc_visit/inputs/contact/patient_id" type="string"/>
+      <bind nodeset="/pnc_visit/inputs/contact/date_of_birth" type="string"/>
+      <bind nodeset="/pnc_visit/inputs/contact/sex" type="string"/>
+      <bind nodeset="/pnc_visit/inputs/contact/parent/name" type="string"/>
+      <bind nodeset="/pnc_visit/inputs/contact/parent/parent/name" type="string"/>
+      <bind nodeset="/pnc_visit/inputs/contact/parent/parent/contact/chw_name" type="string"/>
+      <bind nodeset="/pnc_visit/inputs/contact/parent/parent/contact/phone" type="string"/>
+      <bind nodeset="/pnc_visit/patient_age_in_years" type="string" calculate="floor( difference-in-months( ../inputs/contact/date_of_birth, today() ) div 12 )"/>
+      <bind nodeset="/pnc_visit/patient_uuid" type="string" calculate="../inputs/contact/_id"/>
+      <bind nodeset="/pnc_visit/patient_id" type="string" calculate="../inputs/contact/patient_id" required="true()"/>
+      <bind nodeset="/pnc_visit/patient_name" type="string" calculate="../inputs/contact/name"/>
+      <bind nodeset="/pnc_visit/delivery_date" type="string" calculate="../context_vars/delivery_date_ctx"/>
+      <bind nodeset="/pnc_visit/delivery_date_formatted" type="string" calculate="format-date-time(../delivery_date,&quot;%e %b, %Y&quot;)"/>
+      <bind nodeset="/pnc_visit/delivery_date_formatted_ne" type="string" calculate="to-bikram-sambat(../delivery_date)"/>
+      <bind nodeset="/pnc_visit/days_since_delivery" type="string" calculate="today() - decimal-date-time(../delivery_date)"/>
+      <bind nodeset="/pnc_visit/current_visit_count" type="string" calculate="if( /pnc_visit/days_since_delivery  &lt;= 1,1, if( /pnc_visit/days_since_delivery  &lt;= 5,2, if( /pnc_visit/days_since_delivery  &lt;=16,3, if( /pnc_visit/days_since_delivery  &lt;= 44,4,4))))"/>
+      <bind nodeset="/pnc_visit/current_visit_count_ne" type="string" calculate="if( /pnc_visit/current_visit_count  = 1, 'पहिलो', if( /pnc_visit/current_visit_count  = 2, 'दोश्रो', if( /pnc_visit/current_visit_count  = 3, 'तेश्रो', if( /pnc_visit/current_visit_count  = 4, 'चौथो'))))"/>
+      <bind nodeset="/pnc_visit/context_vars/delivery_date_ctx" type="string" calculate="if(instance('contact-summary')/context/delivery_date != '', instance('contact-summary')/context/delivery_date, .)"/>
+      <bind nodeset="/pnc_visit/context_vars/edd_ctx" type="string" calculate="if(instance('contact-summary')/context/edd != '', instance('contact-summary')/context/edd, .)"/>
+      <bind nodeset="/pnc_visit/pnc_visit/visit_count_note" readonly="true()" type="string"/>
+      <bind nodeset="/pnc_visit/pnc_visit/pnc_visit_done" type="select1"/>
+      <bind nodeset="/pnc_visit/meta/instanceID" type="string" readonly="true()" calculate="concat('uuid:', uuid())"/>
+    </model>
+  </h:head>
+  <h:body class="pages">
+    <group appearance="field-list" ref="/pnc_visit/inputs">
+      <label ref="jr:itext('/pnc_visit/inputs:label')"/>
+      <group ref="/pnc_visit/inputs/contact">
+        <label ref="jr:itext('/pnc_visit/inputs/contact:label')"/>
+        <input appearance="db-object" ref="/pnc_visit/inputs/contact/_id">
+          <label ref="jr:itext('/pnc_visit/inputs/contact/_id:label')"/>
+        </input>
+        <group ref="/pnc_visit/inputs/contact/parent">
+          <label ref="jr:itext('/pnc_visit/inputs/contact/parent:label')"/>
+          <group ref="/pnc_visit/inputs/contact/parent/parent">
+            <label ref="jr:itext('/pnc_visit/inputs/contact/parent/parent:label')"/>
+            <group ref="/pnc_visit/inputs/contact/parent/parent/contact">
+              <label ref="jr:itext('/pnc_visit/inputs/contact/parent/parent/contact:label')"/>
+            </group>
+          </group>
+        </group>
+      </group>
+    </group>
+    <group ref="/pnc_visit/context_vars"/>
+    <group appearance="field-list" ref="/pnc_visit/pnc_visit">
+      <input ref="/pnc_visit/pnc_visit/visit_count_note">
+        <label ref="jr:itext('/pnc_visit/pnc_visit/visit_count_note:label')"/>
+      </input>
+      <select1 ref="/pnc_visit/pnc_visit/pnc_visit_done">
+        <label ref="jr:itext('/pnc_visit/pnc_visit/pnc_visit_done:label')"/>
+        <item>
+          <label ref="jr:itext('/pnc_visit/pnc_visit/pnc_visit_done/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/pnc_visit/pnc_visit/pnc_visit_done/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+    </group>
+  </h:body>
+</h:html>
