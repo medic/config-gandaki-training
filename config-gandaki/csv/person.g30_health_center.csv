@@ -1,0 +1,6 @@
+type,role,first_name,last_name,name,phone,phone_alternate,sex,external_id,notes,reported_date:rel-timestamp,reference_id:excluded,parent:contact WHERE reference_id=COL_VAL
+person,other,राज,दाहाल,राज दाहाल,+9779845671234,,,,,0,hf_p1,hf_1
+person,other,मीना,पन्त,मीना पन्त,+9779812348765,,,,,0,hf_p2,hf_2
+person,other,ससूरज,मल्ल,सूरज मल्ल,+9779807651234,,,,,0,hf_p3,hf_3
+person,other,रेणुका,बिष्ट,रेणुका बिष्ट,+9779841236789,,,,,0,hf_p4,hf_4
+person,other,गोविन्द,कँडेल,गोविन्द कँडेल,+9779801235678,,,,,0,hf_p5,hf_5
