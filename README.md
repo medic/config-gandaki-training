@@ -48,3 +48,6 @@ To ensure quality, the CHT Products should also follow the guidelines below:
 
 - Application faults and errors are logged.
 - Logging configuration can be modified without code changes (eg: verbose mode).
+
+### Documentation
+
