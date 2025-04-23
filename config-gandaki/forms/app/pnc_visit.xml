@@ -53,39 +53,223 @@
           <text id="/pnc_visit/inputs:label">
             <value>Patient</value>
           </text>
-          <text id="/pnc_visit/pnc_visit/pnc_visit_done/no:label">
+          <text id="/pnc_visit/pnc_visit_mother_status/abdominal_pain/no:label">
             <value>No</value>
           </text>
-          <text id="/pnc_visit/pnc_visit/pnc_visit_done/yes:label">
+          <text id="/pnc_visit/pnc_visit_mother_status/abdominal_pain/yes:label">
             <value>Yes</value>
           </text>
-          <text id="/pnc_visit/pnc_visit/pnc_visit_done:label">
-            <value>Has her <output value=" /pnc_visit/current_visit_count "/> been completed?</value>
+          <text id="/pnc_visit/pnc_visit_mother_status/abdominal_pain:label">
+            <value>Severe lower abdominal pain</value>
           </text>
-          <text id="/pnc_visit/pnc_visit/visit_count_note:label">
-            <value>**This is PNC Visit No. <output value=" /pnc_visit/current_visit_count "/>**</value>
+          <text id="/pnc_visit/pnc_visit_mother_status/blurred_vision/no:label">
+            <value>No</value>
+          </text>
+          <text id="/pnc_visit/pnc_visit_mother_status/blurred_vision/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/pnc_visit/pnc_visit_mother_status/blurred_vision:label">
+            <value>Severe continuous headache or blurred vision</value>
+          </text>
+          <text id="/pnc_visit/pnc_visit_mother_status/chest_pain/no:label">
+            <value>No</value>
+          </text>
+          <text id="/pnc_visit/pnc_visit_mother_status/chest_pain/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/pnc_visit/pnc_visit_mother_status/chest_pain:label">
+            <value>Redness of Calf or swollen or difficulty in breathing or chest pain</value>
+          </text>
+          <text id="/pnc_visit/pnc_visit_mother_status/danger_sign/no:label">
+            <value>No</value>
+          </text>
+          <text id="/pnc_visit/pnc_visit_mother_status/danger_sign/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/pnc_visit/pnc_visit_mother_status/danger_sign:label">
+            <value>Does <output value=" /pnc_visit/patient_name "/> have any danger signs? Ask and examine.</value>
+          </text>
+          <text id="/pnc_visit/pnc_visit_mother_status/health_advice:label">
+            <value>Give the necessary advice to the Delivery women/household head and refer them to the mentioning everything in a referral card.
+
+Tell the date of arrival to understand the health condition.</value>
+          </text>
+          <text id="/pnc_visit/pnc_visit_mother_status/leak_urine/no:label">
+            <value>No</value>
+          </text>
+          <text id="/pnc_visit/pnc_visit_mother_status/leak_urine/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/pnc_visit/pnc_visit_mother_status/leak_urine:label">
+            <value>Difficulty in micturition or leak urine</value>
+          </text>
+          <text id="/pnc_visit/pnc_visit_mother_status/mood_swings/no:label">
+            <value>No</value>
+          </text>
+          <text id="/pnc_visit/pnc_visit_mother_status/mood_swings/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/pnc_visit/pnc_visit_mother_status/mood_swings:label">
+            <value>Do you have mood and emotional swings?</value>
+          </text>
+          <text id="/pnc_visit/pnc_visit_mother_status/painful_surgery/no:label">
+            <value>No</value>
+          </text>
+          <text id="/pnc_visit/pnc_visit_mother_status/painful_surgery/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/pnc_visit/pnc_visit_mother_status/painful_surgery:label">
+            <value>In women who have given birth by surgery, is bleeding at the site of surgery, very painful?</value>
+          </text>
+          <text id="/pnc_visit/pnc_visit_mother_status/pnc_visit_done/no:label">
+            <value>No</value>
+          </text>
+          <text id="/pnc_visit/pnc_visit_mother_status/pnc_visit_done/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/pnc_visit/pnc_visit_mother_status/pnc_visit_done:label">
+            <value>Fever</value>
+          </text>
+          <text id="/pnc_visit/pnc_visit_mother_status/smelling_vagina/no:label">
+            <value>No</value>
+          </text>
+          <text id="/pnc_visit/pnc_visit_mother_status/smelling_vagina/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/pnc_visit/pnc_visit_mother_status/smelling_vagina:label">
+            <value>Foul-smelling white discharge from the vagina</value>
+          </text>
+          <text id="/pnc_visit/pnc_visit_mother_status/spasm/no:label">
+            <value>No</value>
+          </text>
+          <text id="/pnc_visit/pnc_visit_mother_status/spasm/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/pnc_visit/pnc_visit_mother_status/spasm:label">
+            <value>Will the body be spasm?</value>
+          </text>
+          <text id="/pnc_visit/pnc_visit_mother_status/vaginal_bleeding/no:label">
+            <value>No</value>
+          </text>
+          <text id="/pnc_visit/pnc_visit_mother_status/vaginal_bleeding/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/pnc_visit/pnc_visit_mother_status/vaginal_bleeding:label">
+            <value>Excesive vaginal bleeding</value>
           </text>
         </translation>
         <translation lang="ne">
           <text id="/pnc_visit/inputs/contact/_id:label">
             <value>सेवा लिनेको नाम के हो?</value>
           </text>
-          <text id="/pnc_visit/pnc_visit/pnc_visit_done/no:label">
+          <text id="/pnc_visit/pnc_visit_mother_status/abdominal_pain/no:label">
             <value>छैन</value>
           </text>
-          <text id="/pnc_visit/pnc_visit/pnc_visit_done/yes:label">
+          <text id="/pnc_visit/pnc_visit_mother_status/abdominal_pain/yes:label">
             <value>छ</value>
           </text>
-          <text id="/pnc_visit/pnc_visit/pnc_visit_done:label">
-            <value>के उहाँको <output value=" /pnc_visit/current_visit_count_ne "/> पीएनसी जाँच गरिएको छ?</value>
+          <text id="/pnc_visit/pnc_visit_mother_status/abdominal_pain:label">
+            <value>तल्लो पेट कडा दुख्ने / तारन्तार बान्ता भइरहेको छ ?</value>
           </text>
-          <text id="/pnc_visit/pnc_visit/visit_count_note:label">
-            <value>**यो <output value=" /pnc_visit/current_visit_count_ne "/> पीएनसी जाँच हो । **</value>
+          <text id="/pnc_visit/pnc_visit_mother_status/blurred_vision/no:label">
+            <value>छैन</value>
+          </text>
+          <text id="/pnc_visit/pnc_visit_mother_status/blurred_vision/yes:label">
+            <value>छ</value>
+          </text>
+          <text id="/pnc_visit/pnc_visit_mother_status/blurred_vision:label">
+            <value>कडा / लगातार टाउको दुख्ने वा दृष्टि धमिलो छ ?</value>
+          </text>
+          <text id="/pnc_visit/pnc_visit_mother_status/chest_pain/no:label">
+            <value>छैन</value>
+          </text>
+          <text id="/pnc_visit/pnc_visit_mother_status/chest_pain/yes:label">
+            <value>छ</value>
+          </text>
+          <text id="/pnc_visit/pnc_visit_mother_status/chest_pain:label">
+            <value>पिंडुला रातो भएको वा सुन्निएको, श्वास फेर्न गाह्रो हुने वा छाती दुखी रहेको छ ?</value>
+          </text>
+          <text id="/pnc_visit/pnc_visit_mother_status/danger_sign/no:label">
+            <value>छैन</value>
+          </text>
+          <text id="/pnc_visit/pnc_visit_mother_status/danger_sign/yes:label">
+            <value>छ</value>
+          </text>
+          <text id="/pnc_visit/pnc_visit_mother_status/danger_sign:label">
+            <value><output value=" /pnc_visit/patient_name "/> मा कुनै खतराका सङ्केतहरु छन् कि, सोध्नु /जाँच गर्नुहोस् ।</value>
+          </text>
+          <text id="/pnc_visit/pnc_visit_mother_status/health_advice:label">
+            <value>सुत्केरी महिला/घरमुलीलाई तुरुन्त आवश्यक सल्लाह दिई प्रेषण रिपोर्टमा सबै कुरा उल्लेख गरी प्रेषण गर्नुहोस् । 
+
+स्वास्थ्य अवस्था बुझ्नका लागि आउने मिति भन्नुहोस् ।</value>
+          </text>
+          <text id="/pnc_visit/pnc_visit_mother_status/leak_urine/no:label">
+            <value>छैन</value>
+          </text>
+          <text id="/pnc_visit/pnc_visit_mother_status/leak_urine/yes:label">
+            <value>छ</value>
+          </text>
+          <text id="/pnc_visit/pnc_visit_mother_status/leak_urine:label">
+            <value>पिसाब सजिलै फेर्न नसक्ने वा पिसाब चुहिने छ ?</value>
+          </text>
+          <text id="/pnc_visit/pnc_visit_mother_status/mood_swings/no:label">
+            <value>छैन</value>
+          </text>
+          <text id="/pnc_visit/pnc_visit_mother_status/mood_swings/yes:label">
+            <value>छ</value>
+          </text>
+          <text id="/pnc_visit/pnc_visit_mother_status/mood_swings:label">
+            <value>मुड र भावनात्मक परिवर्तन /दोधार भइरहन्छ ?</value>
+          </text>
+          <text id="/pnc_visit/pnc_visit_mother_status/painful_surgery/no:label">
+            <value>छैन</value>
+          </text>
+          <text id="/pnc_visit/pnc_visit_mother_status/painful_surgery/yes:label">
+            <value>छ</value>
+          </text>
+          <text id="/pnc_visit/pnc_visit_mother_status/painful_surgery:label">
+            <value>शल्यक्रिया गरेर प्रसूति गराएका महिलामा शल्यक्रिया गरेको ठाउँमा रगत बगिरहेको, निकै कडा दुखिरहेको छ ?</value>
+          </text>
+          <text id="/pnc_visit/pnc_visit_mother_status/pnc_visit_done/no:label">
+            <value>छैन</value>
+          </text>
+          <text id="/pnc_visit/pnc_visit_mother_status/pnc_visit_done/yes:label">
+            <value>छ</value>
+          </text>
+          <text id="/pnc_visit/pnc_visit_mother_status/pnc_visit_done:label">
+            <value>उच्च ज्वरो आएको छ ?</value>
+          </text>
+          <text id="/pnc_visit/pnc_visit_mother_status/smelling_vagina/no:label">
+            <value>छैन</value>
+          </text>
+          <text id="/pnc_visit/pnc_visit_mother_status/smelling_vagina/yes:label">
+            <value>छ</value>
+          </text>
+          <text id="/pnc_visit/pnc_visit_mother_status/smelling_vagina:label">
+            <value>योनी बाट सेतो गन्ध आउने पानी बगिरहेको छ ?</value>
+          </text>
+          <text id="/pnc_visit/pnc_visit_mother_status/spasm/no:label">
+            <value>छैन</value>
+          </text>
+          <text id="/pnc_visit/pnc_visit_mother_status/spasm/yes:label">
+            <value>छ</value>
+          </text>
+          <text id="/pnc_visit/pnc_visit_mother_status/spasm:label">
+            <value>शरिर बाउँडिने छ ?</value>
+          </text>
+          <text id="/pnc_visit/pnc_visit_mother_status/vaginal_bleeding/no:label">
+            <value>छैन</value>
+          </text>
+          <text id="/pnc_visit/pnc_visit_mother_status/vaginal_bleeding/yes:label">
+            <value>छ</value>
+          </text>
+          <text id="/pnc_visit/pnc_visit_mother_status/vaginal_bleeding:label">
+            <value>योनिबाट अत्यधिक रक्तस्राव छ ?</value>
           </text>
         </translation>
       </itext>
       <instance>
-        <pnc_visit id="pnc_visit" prefix="J1!pnc_visit!" delimiter="#" version="2024-08-22 23:49:39">
+        <pnc_visit id="pnc_visit" prefix="J1!pnc_visit!" delimiter="#" version="2025-04-22 15:43:35">
           <inputs>
             <meta>
               <location>
@@ -129,10 +313,20 @@
             <delivery_date_ctx tag="hidden"/>
             <edd_ctx tag="hidden"/>
           </context_vars>
-          <pnc_visit tag="hidden">
-            <visit_count_note tag="hidden"/>
+          <pnc_visit_mother_status tag="hidden">
+            <danger_sign tag="hidden"/>
             <pnc_visit_done/>
-          </pnc_visit>
+            <vaginal_bleeding tag="hidden"/>
+            <spasm/>
+            <blurred_vision/>
+            <abdominal_pain/>
+            <smelling_vagina/>
+            <chest_pain/>
+            <leak_urine/>
+            <mood_swings/>
+            <painful_surgery/>
+            <health_advice/>
+          </pnc_visit_mother_status>
           <meta tag="hidden">
             <instanceID/>
           </meta>
@@ -163,8 +357,18 @@
       <bind nodeset="/pnc_visit/current_visit_count_ne" type="string" calculate="if( /pnc_visit/current_visit_count  = 1, 'पहिलो', if( /pnc_visit/current_visit_count  = 2, 'दोश्रो', if( /pnc_visit/current_visit_count  = 3, 'तेश्रो', if( /pnc_visit/current_visit_count  = 4, 'चौथो'))))"/>
       <bind nodeset="/pnc_visit/context_vars/delivery_date_ctx" type="string" calculate="if(instance('contact-summary')/context/delivery_date != '', instance('contact-summary')/context/delivery_date, .)"/>
       <bind nodeset="/pnc_visit/context_vars/edd_ctx" type="string" calculate="if(instance('contact-summary')/context/edd != '', instance('contact-summary')/context/edd, .)"/>
-      <bind nodeset="/pnc_visit/pnc_visit/visit_count_note" readonly="true()" type="string"/>
-      <bind nodeset="/pnc_visit/pnc_visit/pnc_visit_done" type="select1"/>
+      <bind nodeset="/pnc_visit/pnc_visit_mother_status/danger_sign" type="select1"/>
+      <bind nodeset="/pnc_visit/pnc_visit_mother_status/pnc_visit_done" type="select1"/>
+      <bind nodeset="/pnc_visit/pnc_visit_mother_status/vaginal_bleeding" type="select1"/>
+      <bind nodeset="/pnc_visit/pnc_visit_mother_status/spasm" type="select1"/>
+      <bind nodeset="/pnc_visit/pnc_visit_mother_status/blurred_vision" type="select1"/>
+      <bind nodeset="/pnc_visit/pnc_visit_mother_status/abdominal_pain" type="select1"/>
+      <bind nodeset="/pnc_visit/pnc_visit_mother_status/smelling_vagina" type="select1"/>
+      <bind nodeset="/pnc_visit/pnc_visit_mother_status/chest_pain" type="select1"/>
+      <bind nodeset="/pnc_visit/pnc_visit_mother_status/leak_urine" type="select1"/>
+      <bind nodeset="/pnc_visit/pnc_visit_mother_status/mood_swings" type="select1"/>
+      <bind nodeset="/pnc_visit/pnc_visit_mother_status/painful_surgery" type="select1"/>
+      <bind nodeset="/pnc_visit/pnc_visit_mother_status/health_advice" readonly="true()" type="string"/>
       <bind nodeset="/pnc_visit/meta/instanceID" type="string" readonly="true()" calculate="concat('uuid:', uuid())"/>
     </model>
   </h:head>
@@ -188,21 +392,131 @@
       </group>
     </group>
     <group ref="/pnc_visit/context_vars"/>
-    <group appearance="field-list" ref="/pnc_visit/pnc_visit">
-      <input ref="/pnc_visit/pnc_visit/visit_count_note">
-        <label ref="jr:itext('/pnc_visit/pnc_visit/visit_count_note:label')"/>
-      </input>
-      <select1 ref="/pnc_visit/pnc_visit/pnc_visit_done">
-        <label ref="jr:itext('/pnc_visit/pnc_visit/pnc_visit_done:label')"/>
+    <group appearance="field-list" ref="/pnc_visit/pnc_visit_mother_status">
+      <select1 ref="/pnc_visit/pnc_visit_mother_status/danger_sign">
+        <label ref="jr:itext('/pnc_visit/pnc_visit_mother_status/danger_sign:label')"/>
         <item>
-          <label ref="jr:itext('/pnc_visit/pnc_visit/pnc_visit_done/yes:label')"/>
+          <label ref="jr:itext('/pnc_visit/pnc_visit_mother_status/danger_sign/yes:label')"/>
           <value>yes</value>
         </item>
         <item>
-          <label ref="jr:itext('/pnc_visit/pnc_visit/pnc_visit_done/no:label')"/>
+          <label ref="jr:itext('/pnc_visit/pnc_visit_mother_status/danger_sign/no:label')"/>
           <value>no</value>
         </item>
       </select1>
+      <select1 ref="/pnc_visit/pnc_visit_mother_status/pnc_visit_done">
+        <label ref="jr:itext('/pnc_visit/pnc_visit_mother_status/pnc_visit_done:label')"/>
+        <item>
+          <label ref="jr:itext('/pnc_visit/pnc_visit_mother_status/pnc_visit_done/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/pnc_visit/pnc_visit_mother_status/pnc_visit_done/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/pnc_visit/pnc_visit_mother_status/vaginal_bleeding">
+        <label ref="jr:itext('/pnc_visit/pnc_visit_mother_status/vaginal_bleeding:label')"/>
+        <item>
+          <label ref="jr:itext('/pnc_visit/pnc_visit_mother_status/vaginal_bleeding/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/pnc_visit/pnc_visit_mother_status/vaginal_bleeding/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/pnc_visit/pnc_visit_mother_status/spasm">
+        <label ref="jr:itext('/pnc_visit/pnc_visit_mother_status/spasm:label')"/>
+        <item>
+          <label ref="jr:itext('/pnc_visit/pnc_visit_mother_status/spasm/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/pnc_visit/pnc_visit_mother_status/spasm/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/pnc_visit/pnc_visit_mother_status/blurred_vision">
+        <label ref="jr:itext('/pnc_visit/pnc_visit_mother_status/blurred_vision:label')"/>
+        <item>
+          <label ref="jr:itext('/pnc_visit/pnc_visit_mother_status/blurred_vision/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/pnc_visit/pnc_visit_mother_status/blurred_vision/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/pnc_visit/pnc_visit_mother_status/abdominal_pain">
+        <label ref="jr:itext('/pnc_visit/pnc_visit_mother_status/abdominal_pain:label')"/>
+        <item>
+          <label ref="jr:itext('/pnc_visit/pnc_visit_mother_status/abdominal_pain/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/pnc_visit/pnc_visit_mother_status/abdominal_pain/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/pnc_visit/pnc_visit_mother_status/smelling_vagina">
+        <label ref="jr:itext('/pnc_visit/pnc_visit_mother_status/smelling_vagina:label')"/>
+        <item>
+          <label ref="jr:itext('/pnc_visit/pnc_visit_mother_status/smelling_vagina/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/pnc_visit/pnc_visit_mother_status/smelling_vagina/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/pnc_visit/pnc_visit_mother_status/chest_pain">
+        <label ref="jr:itext('/pnc_visit/pnc_visit_mother_status/chest_pain:label')"/>
+        <item>
+          <label ref="jr:itext('/pnc_visit/pnc_visit_mother_status/chest_pain/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/pnc_visit/pnc_visit_mother_status/chest_pain/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/pnc_visit/pnc_visit_mother_status/leak_urine">
+        <label ref="jr:itext('/pnc_visit/pnc_visit_mother_status/leak_urine:label')"/>
+        <item>
+          <label ref="jr:itext('/pnc_visit/pnc_visit_mother_status/leak_urine/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/pnc_visit/pnc_visit_mother_status/leak_urine/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/pnc_visit/pnc_visit_mother_status/mood_swings">
+        <label ref="jr:itext('/pnc_visit/pnc_visit_mother_status/mood_swings:label')"/>
+        <item>
+          <label ref="jr:itext('/pnc_visit/pnc_visit_mother_status/mood_swings/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/pnc_visit/pnc_visit_mother_status/mood_swings/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/pnc_visit/pnc_visit_mother_status/painful_surgery">
+        <label ref="jr:itext('/pnc_visit/pnc_visit_mother_status/painful_surgery:label')"/>
+        <item>
+          <label ref="jr:itext('/pnc_visit/pnc_visit_mother_status/painful_surgery/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/pnc_visit/pnc_visit_mother_status/painful_surgery/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <input ref="/pnc_visit/pnc_visit_mother_status/health_advice">
+        <label ref="jr:itext('/pnc_visit/pnc_visit_mother_status/health_advice:label')"/>
+      </input>
     </group>
   </h:body>
 </h:html>
