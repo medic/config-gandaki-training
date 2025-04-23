@@ -1,2 +1,0 @@
-type,role,first_name,last_name,name,date_of_birth,phone,phone_alternate,sex,external_id,notes,reported_date:rel-timestamp,reference_id:excluded,parent:contact WHERE reference_id=COL_VAL
-person,other,एन्ड्रयू,कारीगर,एन्ड्रयू कारीगर,,+9779856086207,,,,,0,p1_d1,d1

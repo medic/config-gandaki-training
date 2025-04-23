@@ -1,6 +1,0 @@
-role,first_name,last_name,name,phone,phone_alternate,sex,external_id,notes,reported_date:rel-timestamp,reference_id:excluded,parent:contact WHERE reference_id=COL_VAL
-other,सुमन,शर्मा,सुमन शर्मा,+9779812345678,,,,,0,mp_p1,mp_1
-other,अञ्जली,थापा,अञ्जली थापा,+9779807654321,,,,,0,mp_p2,mp_2
-other,राम,कोइराला,राम कोइराला,+9779841234567,,,,,0,mp_p3,mp_3
-other,निर्मला,भण्डारी,निर्मला भण्डारी,+9779818765432,,,,,0,mp_p4,mp_4
-other,विक्रम,पौडेल,विक्रम पौडेल,+9779801239876,,,,,0,mp_p5,mp_5

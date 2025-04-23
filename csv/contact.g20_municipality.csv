@@ -1,6 +1,0 @@
-contact_type,is_name_generated,name,notes,reported_date:rel-timestamp,reference_id:excluded,parent:contact WHERE reference_id=COL_VAL,contact:person WHERE reference_id=COL_VAL
-g20_municipality,FALSE,कावासोती नगरपालिका,,0,mp_1,d1,mp_p1
-g20_municipality,FALSE,गैडाकोट नगरपालिका,,0,mp_2,d1,mp_p2
-g20_municipality,FALSE,देवचुली नगरपालिका,,0,mp_3,d1,mp_p3
-g20_municipality,FALSE,मध्यविन्दु नगरपालिका,,0,mp_4,d1,mp_p4
-g20_municipality,FALSE,बौदीकालिका गाउँपालिका,,0,mp_5,d1,mp_p5

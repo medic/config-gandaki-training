@@ -1,2 +1,0 @@
-contact_type,is_name_generated,name,notes,reported_date:rel-timestamp,reference_id:excluded,contact:person WHERE reference_id=COL_VAL
-g10_district,FALSE,परीक्षण जिल्ला,,0,d1,p1_d1

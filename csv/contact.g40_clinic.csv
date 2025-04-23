@@ -1,6 +1,0 @@
-contact_type,is_name_generated,name,notes,reported_date:rel-timestamp,reference_id:excluded,parent:contact WHERE reference_id=COL_VAL,contact:person WHERE reference_id=COL_VAL
-g40_clinic,TRUE,अञ्जली शर्माको क्षेत्र,,0,area_101,hf_1,fchv1
-g40_clinic,TRUE,विक्रम थापाको क्षेत्र,,0,area_102,hf_1,fchv2
-g40_clinic,TRUE,सुमन दाहालको क्षेत्र,,0,area_103,hf_2,fchv3
-g40_clinic,TRUE,सुमन बिष्टको क्षेत्र,,0,area_104,hf_2,fchv4
-g40_clinic,TRUE,सूरज थापाको क्षेत्र,,0,area_105,hf_3,fchv5
