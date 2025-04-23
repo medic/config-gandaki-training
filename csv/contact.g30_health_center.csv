@@ -1,0 +1,6 @@
+contact_type,is_name_generated,name,notes,reported_date:rel-timestamp,reference_id:excluded,parent:contact WHERE reference_id=COL_VAL,contact:person WHERE reference_id=COL_VAL
+g30_health_center,FALSE,आ.स्वा.केन्द्र वडा नं.१,,0,hf_1,mp_1,hf_p1
+g30_health_center,FALSE,आ.स्वा.केन्द्र वडा नं. २,,0,hf_2,mp_2,hf_p2
+g30_health_center,FALSE,शिवमन्दिर स्वा.चौ.,,0,hf_3,mp_3,hf_p3
+g30_health_center,FALSE,आ.स्वा.केन्द्र वडा नं.४,,0,hf_4,mp_4,hf_p4
+g30_health_center,FALSE,आ.स्वा.केन्द्र वडा नं.५,,0,hf_5,mp_5,hf_p5
